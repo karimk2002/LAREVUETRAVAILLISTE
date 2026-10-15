@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>La diffusion de La Revue travailliste · Proposition</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap">
+<style>
+/* Deux pages A4. Identité du site : rouge #C90419, Newsreader pour les titres, Barlow Semi Condensed pour le texte. */
+@page { size: A4; margin: 0; }
+:root {
+  --rouge: #C90419;
+  --encre: #141112;
+  --encre-2: #3d3738;
+  --encre-3: #6f6869;
+  --filet: #e4dfdf;
+  --fond: #f6f3f3;
+  --serif: "Newsreader", Georgia, serif;
+  --sans: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #fff; color: var(--encre); }
+body { font-family: var(--sans); font-size: 10.5pt; line-height: 1.38; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.page { width: 210mm; height: 297mm; padding: 13mm 16mm 11mm; position: relative; overflow: hidden; page-break-after: always; display: flex; flex-direction: column; }
+.page:last-child { page-break-after: auto; }
+p { margin: 0; }
+
+.entete { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--rouge); padding-bottom: 3mm; }
+.marque { font-weight: 700; letter-spacing: .28em; text-transform: uppercase; font-size: 9pt; }
+.marque span { color: var(--rouge); }
+.date { font-size: 8.5pt; color: var(--encre-3); letter-spacing: .08em; text-transform: uppercase; font-weight: 600; }
+
+.etiquette { font-size: 8pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--rouge); }
+h1 { font-family: var(--serif); font-weight: 700; font-size: 31pt; line-height: 1.04; margin: 9mm 0 4mm; letter-spacing: -.01em; }
+.chapo { font-family: var(--serif); font-size: 13.5pt; line-height: 1.4; color: var(--encre-2); max-width: 158mm; }
+.chapo b { color: var(--encre); font-weight: 600; }
+h2 { font-family: var(--serif); font-weight: 700; font-size: 16pt; line-height: 1.15; margin: 1.5mm 0 0; }
+.section { margin-top: 8mm; }
+.sous { color: var(--encre-3); font-size: 10pt; margin-top: 1mm; }
+
+/* Le numéro et ce qu'il devient */
+.flux { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; align-items: stretch; gap: 3mm; margin-top: 4mm; }
+.flux .bloc { background: var(--fond); padding: 3mm 4mm; border-top: 3px solid var(--encre); }
+.flux .bloc.rouge { border-top-color: var(--rouge); }
+.flux .n { font-family: var(--serif); font-weight: 700; font-size: 22pt; line-height: 1; }
+.flux .bloc.rouge .n { color: var(--rouge); }
+.flux .l { font-size: 9.5pt; color: var(--encre-2); margin-top: 1mm; line-height: 1.25; }
+.flux .fl { align-self: center; color: var(--rouge); font-size: 16pt; font-weight: 600; }
+
+.tuiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.5mm; margin-top: 3mm; }
+.tuile { border: 1px solid var(--filet); padding: 2.6mm 3mm 3mm; }
+.tuile .c { font-family: var(--serif); font-weight: 700; font-size: 15pt; color: var(--rouge); line-height: 1; }
+.tuile .t { font-weight: 700; font-size: 10pt; margin-top: 1.2mm; line-height: 1.15; }
+.tuile .d { font-size: 8.8pt; color: var(--encre-2); margin-top: .8mm; line-height: 1.25; }
+
+/* Le mois, en quatre étapes */
+.etapes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin-top: 4mm; counter-reset: e; }
+.etape { border-top: 1px solid var(--encre); padding-top: 2.5mm; }
+.etape::before { counter-increment: e; content: counter(e); display: block; font-family: var(--serif); font-weight: 700; font-size: 18pt; color: var(--rouge); line-height: 1; margin-bottom: 1.5mm; }
+.etape p { font-size: 9.8pt; color: var(--encre-2); }
+.etape b { color: var(--encre); }
+
+.garantie { margin-top: auto; border-left: 3px solid var(--rouge); padding: 2.5mm 0 2.5mm 4mm; font-family: var(--serif); font-size: 11.5pt; font-style: italic; color: var(--encre-2); }
+
+.pied { display: flex; justify-content: space-between; font-size: 8pt; color: var(--encre-3); border-top: 1px solid var(--filet); padding-top: 2.5mm; margin-top: 5mm; }
+
+/* Page 2 : les formules */
+.formules { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; margin-top: 4mm; }
+.formule { border: 1px solid var(--filet); border-top: 4px solid var(--encre); padding: 4mm 5mm 4.5mm; display: flex; flex-direction: column; }
+.formule.complet { border-top-color: var(--rouge); background: var(--fond); border-color: var(--fond); border-top-color: var(--rouge); }
+.formule .nom { font-family: var(--serif); font-weight: 700; font-size: 17pt; }
+.formule .prix { margin-top: 1mm; font-size: 10pt; color: var(--encre-2); }
+.formule .prix b { font-family: var(--serif); font-size: 21pt; color: var(--encre); font-weight: 700; margin-right: 1mm; }
+.formule.complet .prix b { color: var(--rouge); }
+.formule ul { list-style: none; padding: 0; margin: 3mm 0 0; display: grid; gap: 1.5mm; }
+.formule li { position: relative; padding-left: 4.5mm; font-size: 9.8pt; line-height: 1.3; }
+.formule li::before { content: ""; position: absolute; left: 0; top: 1.9mm; width: 2.2mm; height: 2px; background: var(--rouge); }
+.formule li.plus { padding-left: 0; font-weight: 700; }
+.formule li.plus::before { display: none; }
+.essai { margin-top: 3.5mm; font-size: 10pt; color: var(--encre-2); }
+.essai b { color: var(--encre); }
+
+.options { margin-top: 3mm; display: grid; gap: 0; }
+.option { display: grid; grid-template-columns: 1fr 34mm; gap: 6mm; padding: 2mm 0; border-bottom: 1px solid var(--filet); }
+.option:first-child { border-top: 1px solid var(--filet); }
+.option .t { font-weight: 700; font-size: 10.2pt; }
+.option .d { font-size: 9.3pt; color: var(--encre-2); margin-top: .4mm; line-height: 1.3; }
+.option .p { text-align: right; font-weight: 600; font-size: 10pt; white-space: nowrap; }
+.option .p small { display: block; font-weight: 400; color: var(--encre-3); font-size: 8.5pt; }
+
+.demo { margin-top: 5mm; background: var(--encre); color: #fff; padding: 4.5mm 6mm 5mm; position: relative; }
+.demo::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--rouge); }
+.demo .etiquette { color: #ff8f9a; }
+.demo h2 { color: #fff; margin-top: 1mm; }
+.demo p { margin-top: 2mm; font-size: 10pt; line-height: 1.42; color: #e9e4e4; }
+.demo p b { color: #fff; }
+.variante-narrateur { display: none; }
+body.narrateur .variante-voix { display: none; }
+body.narrateur .variante-narrateur { display: block; }
+
+.fin { margin-top: auto; padding-top: 4mm; display: flex; justify-content: space-between; align-items: flex-end; gap: 10mm; }
+.fin p { font-family: var(--serif); font-size: 12pt; line-height: 1.35; max-width: 125mm; }
+.fin sup { line-height: 0; font-size: .65em; }
+.fin .sig { font-family: var(--serif); font-style: italic; font-size: 13pt; white-space: nowrap; }
+</style>
+</head>
+<body>
+
+<!-- Page 1 : l'idée et le mois type -->
+<section class="page">
+  <div class="entete">
+    <div class="marque">La Revue <span>travailliste</span></div>
+    <div class="date">Proposition · octobre 2026</div>
+  </div>
+
+  <h1>La diffusion de<br>La Revue travailliste</h1>
+  <p class="chapo">Vous écrivez la revue, je la fais circuler. <b>Chaque numéro devient un mois de publications</b> sur LinkedIn, Instagram et Facebook, tirées de vos propres textes, de vos chiffres et de votre podcast. Vous n’avez rien de plus à écrire.</p>
+
+  <div class="section">
+    <div class="etiquette">Ce que devient un numéro</div>
+    <h2>L’exemple du N°01, « Quand le ciel s’enflamme »</h2>
+
+    <div class="flux">
+      <div class="bloc"><div class="n">1</div><div class="l">numéro par mois, écrit par votre équipe</div></div>
+      <div class="fl">→</div>
+      <div class="bloc rouge"><div class="n">12</div><div class="l">publications sur chaque réseau, soit 3 par semaine</div></div>
+      <div class="fl">+</div>
+      <div class="bloc"><div class="n">4</div><div class="l">publications prêtes pour votre profil LinkedIn</div></div>
+    </div>
+
+    <div class="tuiles">
+      <div class="tuile"><div class="c">2</div><div class="t">Carrousels</div><div class="d">Le dossier en quelques pages ; les 10 recommandations, une par page</div></div>
+      <div class="tuile"><div class="c">2</div><div class="t">Chiffres</div><div class="d">Le chiffre du bloc Data ; un chiffre du bilan santé, avec sa source</div></div>
+      <div class="tuile"><div class="c">2</div><div class="t">Citations</div><div class="d">Les témoignages de Saône-et-Loire, en grand</div></div>
+      <div class="tuile"><div class="c">2</div><div class="t">Extraits du podcast</div><div class="d">En vidéo verticale, sous-titrés, pour Reels et LinkedIn</div></div>
+      <div class="tuile"><div class="c">1</div><div class="t">L’Humeur</div><div class="d">Mise en image, ou en bande dessinée avec la formule Complet</div></div>
+      <div class="tuile"><div class="c">1</div><div class="t">Le mot du mois</div><div class="d">Tiré de l’encadré Lexique</div></div>
+      <div class="tuile"><div class="c">1</div><div class="t">Une tribune relayée</div><div class="d">Vos parutions de « Dans les médias »</div></div>
+      <div class="tuile"><div class="c">1</div><div class="t">L’annonce du numéro</div><div class="d">Avec l’invitation à s’abonner à la newsletter</div></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="etiquette">Chaque mois</div>
+    <h2>Vingt minutes de votre temps</h2>
+    <div class="etapes">
+      <div class="etape"><p><b>Vous publiez le numéro</b> dans le Studio, comme aujourd’hui.</p></div>
+      <div class="etape"><p><b>Je prépare le mois</b> de publications, dans la semaine qui suit.</p></div>
+      <div class="etape"><p><b>Vous validez tout en une fois</b> : une vingtaine de minutes.</p></div>
+      <div class="etape"><p><b>Je programme et je publie</b>, je réponds aux commentaires simples et je vous envoie un bilan en fin de mois.</p></div>
+    </div>
+  </div>
+
+  <p class="garantie">Chaque publication reprend vos textes et vos chiffres, sans rien inventer. Rien ne part sans votre accord.</p>
+
+  <div class="pied"><span>La Revue travailliste · Convergences travaillistes</span><span>1 / 2</span></div>
+</section>
+
+<!-- Page 2 : formules, options, démonstration -->
+<section class="page">
+  <div class="entete">
+    <div class="marque">La Revue <span>travailliste</span></div>
+    <div class="date">Proposition · octobre 2026</div>
+  </div>
+
+  <div class="section" style="margin-top:6mm">
+    <div class="etiquette">Deux formules</div>
+    <h2>À choisir selon l’ambition du mois</h2>
+    <div class="formules">
+      <div class="formule">
+        <div class="nom">Essentiel</div>
+        <div class="prix"><b>290 €</b>par mois</div>
+        <ul>
+          <li>Vos comptes remis en ordre, une fois : noms lisibles, présentations, liens vers la revue et la newsletter, page LinkedIn mise à jour</li>
+          <li>12 publications par mois sur LinkedIn, Instagram et Facebook</li>
+          <li>4 publications prêtes pour votre profil LinkedIn, à valider</li>
+          <li>2 extraits du podcast en vidéo, sous-titrés</li>
+          <li>Programmation, réponses aux commentaires simples, bilan mensuel</li>
+        </ul>
+      </div>
+      <div class="formule complet">
+        <div class="nom">Complet</div>
+        <div class="prix"><b>490 €</b>par mois</div>
+        <ul>
+          <li class="plus">Tout l’Essentiel, et en plus :</li>
+          <li>2 vidéos courtes par numéro, tirées d’un article ou du podcast : la voix, des illustrations animées, le texte à l’écran</li>
+          <li>L’Humeur en bande dessinée</li>
+          <li>Le chiffre Data en animation</li>
+          <li>Les articles en version audio, à écouter sur le site</li>
+        </ul>
+      </div>
+    </div>
+    <p class="essai"><b>Pour commencer, un essai de trois mois</b>, du N°01 au N°03 (novembre à janvier). Ensuite, sans engagement : la formule se change ou s’arrête d’un mois à l’autre.</p>
+  </div>
+
+  <div class="section" style="margin-top:5mm">
+    <div class="etiquette">En option</div>
+    <div class="options">
+      <div class="option">
+        <div><div class="t">Numéro clé en main</div><div class="d">Vous m’envoyez le Word : je relis, je mets le numéro en ligne dans le Studio, je prépare et j’envoie la newsletter.</div></div>
+        <div class="p">150 € par numéro<small>190 € sans formule</small></div>
+      </div>
+      <div class="option">
+        <div><div class="t">Entretien du site</div><div class="d">Le domaine, les mises à jour, les sauvegardes, les petites retouches, et une réponse sous deux jours ouvrés.</div></div>
+        <div class="p">50 € par mois</div>
+      </div>
+      <div class="option">
+        <div><div class="t">Publicité</div><div class="d">Après deux mois de publications, un premier test à petit budget. Depuis octobre 2025, Meta et Google refusent en Europe la plupart des publicités sur les sujets politiques et de société : le test dira ce qui est possible.</div></div>
+        <div class="p">Sur devis<small>budget payé à la plateforme</small></div>
+      </div>
+  </div>
+
+  <div class="demo">
+    <div class="etiquette">Offert</div>
+    <h2>Une démonstration, si vous le souhaitez</h2>
+    <div class="variante-voix">
+      <p>Pour vous montrer ce que permet la formule Complet, je vous propose de transformer l’Humeur du N°01 en une courte vidéo verticale, <b>lue avec votre propre voix</b>, reconstituée à partir d’un enregistrement. Elle reste strictement privée : je ne l’envoie qu’à vous, rien n’est publié, et votre enregistrement est supprimé ensuite, sauf si vous souhaitez vous en servir pour la revue.</p>
+      <p>Si cela vous tente, envoyez-moi <b>une à deux minutes de votre voix</b> : lisez n’importe quel texte, au calme, avec l’application Dictaphone de votre téléphone. Je vous renvoie la vidéo sous trois jours.</p>
+    </div>
+    <div class="variante-narrateur">
+      <p>Pour vous montrer ce que permet la formule Complet, je vous propose de transformer l’Humeur du N°01 en une courte vidéo verticale : <b>une voix de narrateur, des illustrations animées et le texte à l’écran</b>, prête à publier sur Instagram et LinkedIn.</p>
+      <p>Répondez simplement « oui », je vous l’envoie sous trois jours.</p>
+    </div>
+  </div>
+
+  <div class="fin">
+    <p>Pour démarrer avec le N°01 et sa sortie le 1<sup>er</sup> novembre, une réponse d’ici le 26 octobre suffit.</p>
+    <div class="sig">Karim</div>
+  </div>
+
+  <div class="pied"><span>La Revue travailliste · Convergences travaillistes</span><span>2 / 2</span></div>
+</section>
+
+</body>
+</html>
