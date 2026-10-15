@@ -37,11 +37,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 .date { font-size: 8.5pt; color: var(--encre-3); letter-spacing: .08em; text-transform: uppercase; font-weight: 600; }
 
 .etiquette { font-size: 8pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--rouge); }
-h1 { font-family: var(--serif); font-weight: 700; font-size: 31pt; line-height: 1.04; margin: 8mm 0 4mm; letter-spacing: -.01em; }
+h1 { font-family: var(--serif); font-weight: 700; font-size: 31pt; line-height: 1.04; margin: 6mm 0 3.5mm; letter-spacing: -.01em; }
 .chapo { font-family: var(--serif); font-size: 13.5pt; line-height: 1.4; color: var(--encre-2); max-width: 160mm; }
 .chapo b { color: var(--encre); font-weight: 600; }
 h2 { font-family: var(--serif); font-weight: 700; font-size: 16pt; line-height: 1.15; margin: 1.5mm 0 0; }
-.section { margin-top: 7mm; }
+.section { margin-top: 6mm; }
 .intro { font-size: 10pt; color: var(--encre-2); margin-top: 1.5mm; max-width: 165mm; }
 
 .pied { display: flex; justify-content: space-between; font-size: 8pt; color: var(--encre-3); border-top: 1px solid var(--filet); padding-top: 2.5mm; margin-top: auto; }
@@ -89,7 +89,7 @@ h2 { font-family: var(--serif); font-weight: 700; font-size: 16pt; line-height: 
 .chiffres > div:first-child .n { color: var(--rouge); }
 .chiffres .l { font-size: 9.6pt; color: var(--encre-2); margin-top: 1mm; line-height: 1.25; }
 
-.garantie { margin-top: 6mm; border-left: 3px solid var(--rouge); padding: 2mm 0 2mm 4mm; font-family: var(--serif); font-size: 11.5pt; font-style: italic; color: var(--encre-2); }
+.garantie { margin-top: 3.5mm; border-left: 3px solid var(--rouge); padding: 1.5mm 0 1.5mm 4mm; font-family: var(--serif); font-size: 11.5pt; font-style: italic; color: var(--encre-2); }
 
 /* Page 2 : réseau par réseau */
 .reseau { display: grid; grid-template-columns: 44mm 1fr 52mm; gap: 5mm; padding: 4mm 0; border-bottom: 1px solid var(--filet); }
@@ -126,7 +126,7 @@ h2 { font-family: var(--serif); font-weight: 700; font-size: 16pt; line-height: 
 .essai b { color: var(--encre); }
 
 .options { margin-top: 3mm; }
-.option { display: grid; grid-template-columns: 1fr 36mm; gap: 6mm; padding: 2.6mm 0; border-bottom: 1px solid var(--filet); }
+.option { display: grid; grid-template-columns: 1fr 36mm; gap: 6mm; padding: 2.2mm 0; border-bottom: 1px solid var(--filet); }
 .option:first-child { border-top: 1px solid var(--filet); }
 .option .t { font-weight: 700; font-size: 10.4pt; }
 .option .d { font-size: 9.5pt; color: var(--encre-2); margin-top: .5mm; line-height: 1.32; }
@@ -135,7 +135,7 @@ h2 { font-family: var(--serif); font-weight: 700; font-size: 16pt; line-height: 
 .option.phare { background: var(--fond); padding: 3mm 4mm; border: 0; border-left: 3px solid var(--rouge); margin-bottom: 1mm; }
 .option.phare + .option { border-top: 1px solid var(--filet); }
 
-.demo { margin-top: 5mm; background: var(--encre); color: #fff; padding: 4.5mm 6mm 5mm; position: relative; }
+.demo { margin-top: 4mm; background: var(--encre); color: #fff; padding: 4.5mm 6mm 5mm; position: relative; }
 .demo::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--rouge); }
 .demo .etiquette { color: #ff8f9a; }
 .demo h2 { color: #fff; margin-top: 1mm; }
@@ -150,6 +150,28 @@ body.narrateur .variante-narrateur { display: block; }
 .fin sup { line-height: 0; font-size: .65em; }
 .fin .sig { font-family: var(--serif); font-style: italic; font-size: 13pt; white-space: nowrap; }
 .page:last-child .pied { margin-top: 4mm; }
+
+.mois-tete .st { font-size: 8.8pt; color: var(--encre-3); margin-top: .3mm; }
+.intro b { color: var(--encre); }
+
+/* Kit de démarrage (page 2) */
+.kit { margin-top: auto; margin-bottom: 5mm; border: 1px solid var(--filet); border-top: 4px solid var(--rouge); padding: 4mm 5mm 4mm; }
+.kit-tete { display: flex; justify-content: space-between; align-items: flex-start; gap: 6mm; }
+.kit-prix { font-family: var(--serif); font-weight: 700; font-size: 19pt; text-align: right; white-space: nowrap; line-height: 1.05; }
+.kit-prix small { display: block; font-family: var(--sans); font-weight: 500; font-size: 8.8pt; color: var(--encre-3); }
+.kit-liste { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6mm 6mm; margin-top: 3mm; }
+.kit-liste li { position: relative; padding-left: 4.5mm; font-size: 9.6pt; line-height: 1.3; color: var(--encre-2); }
+.kit-liste li::before { content: ""; position: absolute; left: 0; top: 1.9mm; width: 2.2mm; height: 2px; background: var(--rouge); }
+.kit-liste b { color: var(--encre); }
+.kit-note { margin-top: 2.5mm; font-family: var(--serif); font-style: italic; font-size: 10.5pt; color: var(--encre-2); }
+
+/* Offre de lancement (page 3) */
+.offre { margin-top: 3.5mm; display: grid; grid-template-columns: 1fr auto; gap: 6mm; align-items: center; background: var(--fond); border-left: 3px solid var(--rouge); padding: 3mm 4mm; }
+.offre-t { font-size: 9.8pt; color: var(--encre-2); line-height: 1.35; }
+.offre-t b { color: var(--encre); }
+.offre-p { display: grid; gap: 1mm; text-align: right; font-size: 9.6pt; white-space: nowrap; }
+.offre-p b { font-family: var(--serif); font-size: 13pt; color: var(--rouge); margin-left: 1.5mm; }
+.offre-p s { color: var(--encre-3); margin-left: 1mm; }
 </style>
 </head>
 <body>
@@ -169,7 +191,7 @@ body.narrateur .variante-narrateur { display: block; }
   </div>
 
   <h1>La diffusion de<br>La Revue travailliste</h1>
-  <p class="chapo">Vous écrivez la revue, je la fais circuler. <b>Chaque numéro devient un mois de publications</b> sur LinkedIn, Instagram et Facebook, tirées de vos propres textes, de vos chiffres et de votre podcast. Vous n’avez rien de plus à écrire.</p>
+  <p class="chapo">Vous écrivez la revue, je la fais circuler. <b>Chaque numéro devient un mois de publications</b> pour LinkedIn, Instagram et Facebook, tirées de vos propres textes, de vos chiffres et de votre podcast. Vous n’avez rien de plus à écrire.</p>
 
   <div class="section">
     <div class="etiquette">Ce que devient un numéro</div>
@@ -195,7 +217,7 @@ body.narrateur .variante-narrateur { display: block; }
 
       <div class="mois">
         <div class="mois-tete">
-          <div class="t">Ce que je publie, semaine après semaine</div>
+          <div><div class="t">12 contenus par mois, prêts à publier</div><div class="st">chacun décliné pour les trois réseaux</div></div>
           <div class="reseaux">
             <span class="logo petit li"><svg><use href="#i-li"/></svg></span>
             <span class="logo petit ig"><svg><use href="#i-ig"/></svg></span>
@@ -236,16 +258,21 @@ body.narrateur .variante-narrateur { display: block; }
         </div>
         <div class="profil">
           <span class="logo petit li"><svg><use href="#i-li"/></svg></span>
-          <span><b>Et chaque semaine</b>, une publication prête pour votre profil LinkedIn personnel.</span>
+          <span><b>Et chaque semaine</b>, une proposition de texte pour votre profil LinkedIn, que vous adaptez et publiez vous-même.</span>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="chiffres">
-    <div><div class="n">12</div><div class="l">publications par mois, environ trois par semaine</div></div>
-    <div><div class="n">3</div><div class="l">réseaux, avec un format adapté à chacun (détail page suivante)</div></div>
-    <div><div class="n">+ 4</div><div class="l">publications pour votre profil LinkedIn, que vous validez</div></div>
+  <div class="section">
+    <div class="etiquette">Chaque mois</div>
+    <h2>Vingt minutes de votre temps</h2>
+    <div class="etapes">
+      <div class="etape"><p><b>Vous publiez le numéro</b> dans le Studio, ou vous m’envoyez le Word.</p></div>
+      <div class="etape"><p><b>Je prépare le mois</b> : visuels, vidéos, textes et dates de publication.</p></div>
+      <div class="etape"><p><b>Vous validez tout en une fois</b>, depuis votre téléphone, par WhatsApp ou par e-mail.</p></div>
+      <div class="etape"><p><b>Vous publiez aux dates prévues</b>, ou je programme pour vous. En fin de mois, un bilan.</p></div>
+    </div>
   </div>
 
   <p class="garantie">Chaque publication reprend vos textes et vos chiffres, sans rien inventer. Rien ne part sans votre accord.</p>
@@ -253,7 +280,7 @@ body.narrateur .variante-narrateur { display: block; }
   <div class="pied"><span>La Revue travailliste · Convergences travaillistes</span><span>1 / 3</span></div>
 </section>
 
-<!-- Page 2 : réseau par réseau, et le déroulé du mois -->
+<!-- Page 2 : réseau par réseau, et le kit de démarrage -->
 <section class="page">
   <div class="entete">
     <div class="marque">La Revue <span>travailliste</span></div>
@@ -263,32 +290,30 @@ body.narrateur .variante-narrateur { display: block; }
   <div class="section">
     <div class="etiquette">Réseau par réseau</div>
     <h2>Le même numéro, un format pour chaque réseau</h2>
-    <p class="intro">Chaque réseau a ses usages : on ne publie pas la même chose sur LinkedIn et sur Instagram. Avant la première publication, je remets aussi chaque compte en ordre, pour que tout visiteur trouve la revue et la newsletter.</p>
+    <p class="intro">Chaque réseau a ses usages : on ne publie pas la même chose sur LinkedIn et sur Instagram. <b>Vos comptes restent les vôtres</b> : je vous livre chaque publication prête à poster, avec sa date. Vous publiez, ou je le fais pour vous si vous le préférez.</p>
   </div>
 
-  <div style="margin-top:4mm">
+  <div style="margin-top:3mm">
     <div class="reseau">
       <div>
         <div class="nom"><span class="logo li"><svg><use href="#i-li"/></svg></span>LinkedIn</div>
-        <p class="pourquoi">Le réseau de votre public : élus, syndicalistes, cadres, journalistes. Les profils personnels y portent bien plus loin que les pages.</p>
-        <p class="rythme">3 publications par semaine sur la page, 1 sur votre profil</p>
+        <p class="pourquoi">Le réseau de votre public : élus, syndicalistes, cadres, journalistes. Les profils personnels y portent plus loin que les pages.</p>
+        <p class="rythme">3 publications par semaine sur la page</p>
       </div>
       <div>
-        <div class="col-t">Ce que je publie</div>
+        <div class="col-t">Ce que je prépare</div>
         <ul>
           <li>Les carrousels en document, que l’on feuillette directement dans le fil</li>
-          <li>Les chiffres et les citations, accompagnés de quelques lignes de texte</li>
+          <li>Les chiffres et les citations, avec quelques lignes de texte</li>
           <li>Les vidéos du podcast, sous-titrées</li>
-          <li>Le lien vers l’article en premier commentaire</li>
-          <li>Pour votre profil : une publication par semaine, écrite à partir du numéro, que vous validez</li>
+          <li>Pour votre profil : une proposition de texte par semaine, que vous adaptez</li>
         </ul>
       </div>
       <div class="regle">
-        <div class="col-t">Ce que je règle d’abord</div>
+        <div class="col-t">Ce que l’on règle d’abord</div>
         <ul>
           <li>La fiche de la page : association, description, lien vers la revue</li>
           <li>Logo et bannière aux couleurs de la revue</li>
-          <li>L’invitation de vos relations à suivre la page</li>
         </ul>
       </div>
     </div>
@@ -300,20 +325,19 @@ body.narrateur .variante-narrateur { display: block; }
         <p class="rythme">3 publications par semaine</p>
       </div>
       <div>
-        <div class="col-t">Ce que je publie</div>
+        <div class="col-t">Ce que je prépare</div>
         <ul>
           <li>Les carrousels en images, au format portrait</li>
           <li>Les visuels : chiffres, citations, l’Humeur, le mot du mois</li>
           <li>Les vidéos verticales (Reels) créées à partir du podcast</li>
-          <li>Une story le jour de la sortie de chaque numéro</li>
+          <li>Une story pour la sortie de chaque numéro</li>
         </ul>
       </div>
       <div class="regle">
-        <div class="col-t">Ce que je règle d’abord</div>
+        <div class="col-t">Ce que l’on règle d’abord</div>
         <ul>
           <li>Une présentation qui parle de la revue</li>
           <li>Le lien vers le site et l’inscription à la newsletter</li>
-          <li>La photo de profil</li>
         </ul>
       </div>
     </div>
@@ -325,46 +349,51 @@ body.narrateur .variante-narrateur { display: block; }
         <p class="rythme">3 publications par semaine</p>
       </div>
       <div>
-        <div class="col-t">Ce que je publie</div>
+        <div class="col-t">Ce que je prépare</div>
         <ul>
           <li>Les mêmes visuels et vidéos qu’Instagram, adaptés</li>
           <li>Le lien direct vers l’article, que Facebook accepte dans la publication</li>
-          <li>Le tout programmé en même temps qu’Instagram</li>
         </ul>
       </div>
       <div class="regle">
-        <div class="col-t">Ce que je règle d’abord</div>
+        <div class="col-t">Ce que l’on règle d’abord</div>
         <ul>
           <li>Une adresse lisible, sans suite de chiffres</li>
           <li>Le bouton « S’inscrire » vers la newsletter</li>
-          <li>La couverture aux couleurs de la revue</li>
         </ul>
       </div>
     </div>
   </div>
 
-  <div class="section">
-    <div class="etiquette">Chaque mois</div>
-    <h2>Vingt minutes de votre temps</h2>
-    <div class="etapes">
-      <div class="etape"><p><b>Vous publiez le numéro</b> dans le Studio, comme aujourd’hui.</p></div>
-      <div class="etape"><p><b>Je prépare le mois</b> de publications, dans la semaine qui suit.</p></div>
-      <div class="etape"><p><b>Vous validez tout en une fois</b> : une vingtaine de minutes.</p></div>
-      <div class="etape"><p><b>Je programme et je publie</b>, je réponds aux commentaires simples et je vous envoie un bilan en fin de mois.</p></div>
+  <div class="kit">
+    <div class="kit-tete">
+      <div>
+        <div class="etiquette">Une fois, au départ</div>
+        <h2>Le kit de démarrage</h2>
+      </div>
+      <div class="kit-prix">190 €<small>compris dans les deux formules</small></div>
     </div>
+    <p class="intro">Tout ce qu’il faut pour que la revue ait la même allure sur chaque réseau, et que vous puissiez aussi publier par vous-même.</p>
+    <ul class="kit-liste">
+      <li><b>Vos comptes remis en ordre</b> : présentations, liens, photos de profil et bannières, réseau par réseau (ci-dessus)</li>
+      <li><b>La charte de la revue pour les réseaux</b> : polices, couleurs, logo aux bons formats</li>
+      <li><b>Des modèles de visuels prêts à modifier</b> : carrousel, chiffre, citation, Humeur</li>
+      <li><b>Le calendrier type d’un numéro</b> : quoi publier, et quand</li>
+    </ul>
+    <p class="kit-note">Ce kit vous reste, même si vous arrêtez une formule.</p>
   </div>
 
   <div class="pied"><span>La Revue travailliste · Convergences travaillistes</span><span>2 / 3</span></div>
 </section>
 
-<!-- Page 3 : formules, options, démonstration -->
+<!-- Page 3 : formules, offre de lancement, options, démonstration -->
 <section class="page">
   <div class="entete">
     <div class="marque">La Revue <span>travailliste</span></div>
     <div class="date">Proposition · octobre 2026</div>
   </div>
 
-  <div class="section">
+  <div class="section" style="margin-top:6mm">
     <div class="etiquette">Deux formules</div>
     <h2>À choisir selon l’ambition du mois</h2>
     <div class="formules">
@@ -372,11 +401,12 @@ body.narrateur .variante-narrateur { display: block; }
         <div class="nom">Essentiel</div>
         <div class="prix"><b>290 €</b>par mois</div>
         <ul>
-          <li>Vos trois comptes remis en ordre, une fois (page 2)</li>
-          <li>12 publications par mois sur LinkedIn, Instagram et Facebook</li>
-          <li>4 publications prêtes pour votre profil LinkedIn, à valider</li>
-          <li>Création de 2 vidéos à partir du podcast : montage des meilleurs passages, sous-titres, habillage animé de la revue</li>
-          <li>Programmation, réponses aux commentaires simples, bilan mensuel</li>
+          <li>Le kit de démarrage (page 2)</li>
+          <li>12 contenus par mois, déclinés pour les 3 réseaux, avec textes et dates</li>
+          <li>4 propositions de texte pour votre profil LinkedIn</li>
+          <li>Création de 2 vidéos à partir du podcast : montage, sous-titres, habillage animé</li>
+          <li>Les contenus du mois organisés pour la newsletter (Brevo, et Substack si vous le souhaitez)</li>
+          <li>Un bilan mensuel : abonnés, visites, inscriptions</li>
         </ul>
       </div>
       <div class="formule complet">
@@ -384,29 +414,33 @@ body.narrateur .variante-narrateur { display: block; }
         <div class="prix"><b>490 €</b>par mois</div>
         <ul>
           <li class="plus">Tout l’Essentiel, et en plus :</li>
-          <li>Création de 2 vidéos illustrées par numéro, à partir d’un article ou du podcast : la voix, des illustrations animées, le texte à l’écran</li>
+          <li><b>Le numéro mis en ligne pour vous</b> : vous m’envoyez le Word, je l’importe dans le Studio et je prépare la newsletter</li>
+          <li>Création de 2 vidéos illustrées par numéro : voix, illustrations animées, texte à l’écran</li>
           <li>L’Humeur en bande dessinée</li>
           <li>Le chiffre Data en animation</li>
           <li>Les articles en version audio, à écouter sur le site</li>
         </ul>
       </div>
     </div>
-    <p class="essai"><b>Pour commencer, un essai de trois mois</b>, du N°01 au N°03 (novembre à janvier). Ensuite, sans engagement : la formule se change ou s’arrête d’un mois à l’autre.</p>
+    <div class="offre">
+      <div class="offre-t"><b>Offre de lancement : sur trois mois, le troisième est offert.</b> Du N°01 au N°03 ; ensuite, sans engagement, la formule se change ou s’arrête d’un mois à l’autre.</div>
+      <div class="offre-p"><span>Essentiel <b>580 €</b> <s>870 €</s></span><span>Complet <b>980 €</b> <s>1 470 €</s></span></div>
+    </div>
   </div>
 
-  <div class="section" style="margin-top:5mm">
+  <div class="section" style="margin-top:4mm">
     <div class="etiquette">En option</div>
     <div class="options">
-      <div class="option phare">
-        <div><div class="t">Numéro clé en main</div><div class="d">Vous m’envoyez simplement le Word du numéro. <b>J’importe moi-même les articles dans le Studio</b> : titres, chapôs, intertitres, encadrés, citations, tableaux et photos, chacun à sa place. Je corrige les fautes sans toucher au fond, je vérifie l’affichage sur téléphone, puis je prépare et j’envoie la newsletter.</div></div>
-        <div class="p">150 € par numéro<small>190 € sans formule</small></div>
+      <div class="option">
+        <div><div class="t">Numéro clé en main</div><div class="d">Vous m’envoyez le Word du numéro : <b>j’importe moi-même les articles dans le Studio</b> (titres, intertitres, encadrés, citations, tableaux, photos), je corrige les fautes sans toucher au fond et je prépare la newsletter dans Brevo.</div></div>
+        <div class="p">100 € par numéro<small>compris dans Complet</small></div>
       </div>
       <div class="option">
-        <div><div class="t">Entretien du site</div><div class="d">Domaine, mises à jour, sauvegardes, petites retouches, réponse sous deux jours ouvrés.</div></div>
-        <div class="p">50 € par mois</div>
+        <div><div class="t">Nom de domaine et sauvegarde</div><div class="d">Le site fonctionne sans entretien : restent le renouvellement du domaine et une sauvegarde de vos contenus. Évolutions : sur devis.</div></div>
+        <div class="p">60 € par an</div>
       </div>
       <div class="option">
-        <div><div class="t">Publicité</div><div class="d">Après deux mois, un test à petit budget : depuis octobre 2025, Meta et Google refusent en Europe la plupart des publicités politiques et de société.</div></div>
+        <div><div class="t">Publicité, dans un second temps</div><div class="d">Une deuxième phase, une fois la présence régulière installée. Meta et Google limitent en Europe les publicités politiques et de société : on vérifiera d’abord ce qui est accepté.</div></div>
         <div class="p">Sur devis<small>budget payé à la plateforme</small></div>
       </div>
     </div>
@@ -416,17 +450,15 @@ body.narrateur .variante-narrateur { display: block; }
     <div class="etiquette">Offert</div>
     <h2>Une démonstration, si vous le souhaitez</h2>
     <div class="variante-voix">
-      <p>Pour vous montrer ce que permet la formule Complet, je vous propose de transformer l’Humeur du N°01 en une courte vidéo verticale, <b>lue avec votre propre voix</b>, reconstituée à partir d’un enregistrement. Elle reste privée : rien n’est publié, et votre enregistrement est supprimé ensuite, sauf si vous souhaitez vous en servir pour la revue.</p>
-      <p>Si cela vous tente, envoyez-moi <b>une à deux minutes de votre voix</b> : lisez n’importe quel texte, au calme, avec l’application Dictaphone de votre téléphone. Je vous renvoie la vidéo sous trois jours.</p>
+      <p>L’Humeur du N°01 en courte vidéo verticale, <b>lue avec votre propre voix</b>, reconstituée à partir d’une à deux minutes d’enregistrement (n’importe quel texte, au calme, avec le Dictaphone de votre téléphone). Je vous la renvoie sous trois jours. Rien n’est publié ; la voix, créée en mode privé, est supprimée sur simple demande.</p>
     </div>
     <div class="variante-narrateur">
-      <p>Pour vous montrer ce que permet la formule Complet, je vous propose de transformer l’Humeur du N°01 en une courte vidéo verticale : <b>une voix de narrateur, des illustrations animées et le texte à l’écran</b>, prête à publier sur Instagram et LinkedIn.</p>
-      <p>Répondez simplement « oui », je vous l’envoie sous trois jours.</p>
+      <p>L’Humeur du N°01 transformée en courte vidéo verticale : <b>une voix de narrateur, des illustrations animées et le texte à l’écran</b>, prête à publier sur Instagram et LinkedIn. Répondez simplement « oui », je vous l’envoie sous trois jours.</p>
     </div>
   </div>
 
   <div class="fin">
-    <p>Pour démarrer avec le N°01 et sa sortie le 1<sup>er</sup> novembre, une réponse d’ici le 26 octobre suffit.</p>
+    <p>Pour démarrer avec le N°01 (sortie le 1<sup>er</sup> novembre), une réponse d’ici le 26 octobre suffit. Sinon, nous commencerons avec le N°02.</p>
     <div class="sig">Karim</div>
   </div>
 
