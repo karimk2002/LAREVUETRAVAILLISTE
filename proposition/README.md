@@ -1,6 +1,6 @@
 # Proposition « La diffusion de La Revue travailliste » (octobre 2026)
 
-- `proposition.html` : source des deux pages A4 (polices Newsreader et Barlow Semi Condensed, rouge #C90419).
+- `proposition.html` : source des trois pages A4 (polices Newsreader et Barlow Semi Condensed, rouge #C90419).
 - `La-Revue-travailliste-proposition-diffusion.pdf` : version avec démonstration dans sa propre voix.
 - `La-Revue-travailliste-proposition-diffusion-narrateur.pdf` : même document, démonstration avec une voix de narrateur.
 - `apercu/` : une image par page et par version, pour relire sans ouvrir le PDF.

@@ -7,7 +7,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&display=swap">
 <style>
-/* Deux pages A4. Identité du site : rouge #C90419, Newsreader pour les titres, Barlow Semi Condensed pour le texte. */
+/* Trois pages A4. Identité du site : rouge #C90419, Newsreader pour les titres, Barlow Semi Condensed pour le texte.
+   Page 1 : un numéro devient un mois de publications. Page 2 : réseau par réseau. Page 3 : formules et options. */
 @page { size: A4; margin: 0; }
 :root {
   --rouge: #C90419;
@@ -16,6 +17,9 @@
   --encre-3: #6f6869;
   --filet: #e4dfdf;
   --fond: #f6f3f3;
+  --linkedin: #0A66C2;
+  --instagram: #E4405F;
+  --facebook: #0866FF;
   --serif: "Newsreader", Georgia, serif;
   --sans: "Barlow Semi Condensed", "Arial Narrow", Arial, sans-serif;
 }
@@ -25,6 +29,7 @@ body { font-family: var(--sans); font-size: 10.5pt; line-height: 1.38; -webkit-p
 .page { width: 210mm; height: 297mm; padding: 13mm 16mm 11mm; position: relative; overflow: hidden; page-break-after: always; display: flex; flex-direction: column; }
 .page:last-child { page-break-after: auto; }
 p { margin: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
 
 .entete { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 2px solid var(--rouge); padding-bottom: 3mm; }
 .marque { font-weight: 700; letter-spacing: .28em; text-transform: uppercase; font-size: 9pt; }
@@ -32,48 +37,87 @@ p { margin: 0; }
 .date { font-size: 8.5pt; color: var(--encre-3); letter-spacing: .08em; text-transform: uppercase; font-weight: 600; }
 
 .etiquette { font-size: 8pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--rouge); }
-h1 { font-family: var(--serif); font-weight: 700; font-size: 31pt; line-height: 1.04; margin: 9mm 0 4mm; letter-spacing: -.01em; }
-.chapo { font-family: var(--serif); font-size: 13.5pt; line-height: 1.4; color: var(--encre-2); max-width: 158mm; }
+h1 { font-family: var(--serif); font-weight: 700; font-size: 31pt; line-height: 1.04; margin: 8mm 0 4mm; letter-spacing: -.01em; }
+.chapo { font-family: var(--serif); font-size: 13.5pt; line-height: 1.4; color: var(--encre-2); max-width: 160mm; }
 .chapo b { color: var(--encre); font-weight: 600; }
 h2 { font-family: var(--serif); font-weight: 700; font-size: 16pt; line-height: 1.15; margin: 1.5mm 0 0; }
-.section { margin-top: 8mm; }
-.sous { color: var(--encre-3); font-size: 10pt; margin-top: 1mm; }
+.section { margin-top: 7mm; }
+.intro { font-size: 10pt; color: var(--encre-2); margin-top: 1.5mm; max-width: 165mm; }
 
-/* Le numéro et ce qu'il devient */
-.flux { display: grid; grid-template-columns: 1fr auto 1fr auto 1fr; align-items: stretch; gap: 3mm; margin-top: 4mm; }
-.flux .bloc { background: var(--fond); padding: 3mm 4mm; border-top: 3px solid var(--encre); }
-.flux .bloc.rouge { border-top-color: var(--rouge); }
-.flux .n { font-family: var(--serif); font-weight: 700; font-size: 22pt; line-height: 1; }
-.flux .bloc.rouge .n { color: var(--rouge); }
-.flux .l { font-size: 9.5pt; color: var(--encre-2); margin-top: 1mm; line-height: 1.25; }
-.flux .fl { align-self: center; color: var(--rouge); font-size: 16pt; font-weight: 600; }
+.pied { display: flex; justify-content: space-between; font-size: 8pt; color: var(--encre-3); border-top: 1px solid var(--filet); padding-top: 2.5mm; margin-top: auto; }
 
-.tuiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2.5mm; margin-top: 3mm; }
-.tuile { border: 1px solid var(--filet); padding: 2.6mm 3mm 3mm; }
-.tuile .c { font-family: var(--serif); font-weight: 700; font-size: 15pt; color: var(--rouge); line-height: 1; }
-.tuile .t { font-weight: 700; font-size: 10pt; margin-top: 1.2mm; line-height: 1.15; }
-.tuile .d { font-size: 8.8pt; color: var(--encre-2); margin-top: .8mm; line-height: 1.25; }
+/* Logos des réseaux */
+.logo { display: inline-flex; width: 7mm; height: 7mm; border-radius: 50%; align-items: center; justify-content: center; flex: none; }
+.logo svg { width: 3.8mm; height: 3.8mm; fill: #fff; }
+.logo.li { background: var(--linkedin); }
+.logo.ig { background: var(--instagram); }
+.logo.fb { background: var(--facebook); }
+.logo.petit { width: 4.6mm; height: 4.6mm; }
+.logo.petit svg { width: 2.6mm; height: 2.6mm; }
 
-/* Le mois, en quatre étapes */
+/* Page 1 : du numéro au mois de publications */
+.transfo { display: grid; grid-template-columns: 54mm 8mm 1fr; margin-top: 4mm; align-items: stretch; }
+.numero { background: var(--rouge); color: #fff; padding: 4.5mm 4.5mm 5mm; display: flex; flex-direction: column; }
+.numero .q { font-size: 8pt; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; opacity: .85; }
+.numero .n { font-family: var(--serif); font-weight: 700; font-size: 30pt; line-height: 1; margin-top: 2mm; }
+.numero .titre { font-family: var(--serif); font-size: 12.5pt; line-height: 1.2; margin-top: 1.5mm; }
+.numero ul { margin-top: 4mm; border-top: 1px solid rgba(255,255,255,.35); }
+.numero li { font-size: 9.6pt; padding: 1.6mm 0; border-bottom: 1px solid rgba(255,255,255,.35); line-height: 1.25; }
+.numero li b { font-weight: 700; }
+.numero .bas { margin-top: auto; padding-top: 3mm; font-size: 9pt; opacity: .9; }
+.fleche { display: flex; align-items: center; justify-content: center; }
+.fleche svg { width: 6mm; height: 6mm; fill: none; stroke: var(--rouge); stroke-width: 2.4; }
+
+.mois { border: 1px solid var(--filet); }
+.mois-tete { display: flex; justify-content: space-between; align-items: center; padding: 2.6mm 4mm; border-bottom: 1px solid var(--filet); }
+.mois-tete .t { font-weight: 700; font-size: 10.5pt; }
+.mois-tete .reseaux { display: flex; gap: 1.5mm; align-items: center; font-size: 8.5pt; color: var(--encre-3); }
+.semaine { display: grid; grid-template-columns: 17mm 1fr; border-bottom: 1px solid var(--filet); }
+.semaine .s { padding: 2.4mm 0 2.4mm 4mm; font-size: 8pt; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--encre-3); line-height: 1.2; }
+.semaine .s b { display: block; font-family: var(--serif); font-size: 15pt; letter-spacing: 0; color: var(--encre); line-height: 1; margin-bottom: .6mm; }
+.semaine .pubs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.6mm; padding: 2mm 3mm 2mm 0; }
+.pub { background: var(--fond); padding: 1.6mm 2.2mm 1.8mm; }
+.pub .f { font-size: 7.2pt; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--rouge); }
+.pub .c { font-size: 9.2pt; line-height: 1.2; margin-top: .5mm; }
+.profil { display: flex; align-items: center; gap: 2.5mm; padding: 2.6mm 4mm; font-size: 9.6pt; }
+.profil b { font-weight: 700; }
+
+.chiffres { display: grid; grid-template-columns: repeat(3, 1fr); gap: 4mm; margin-top: 6mm; }
+.chiffres > div { border-top: 3px solid var(--encre); padding-top: 2mm; }
+.chiffres > div:first-child { border-top-color: var(--rouge); }
+.chiffres .n { font-family: var(--serif); font-weight: 700; font-size: 24pt; line-height: 1; }
+.chiffres > div:first-child .n { color: var(--rouge); }
+.chiffres .l { font-size: 9.6pt; color: var(--encre-2); margin-top: 1mm; line-height: 1.25; }
+
+.garantie { margin-top: 6mm; border-left: 3px solid var(--rouge); padding: 2mm 0 2mm 4mm; font-family: var(--serif); font-size: 11.5pt; font-style: italic; color: var(--encre-2); }
+
+/* Page 2 : réseau par réseau */
+.reseau { display: grid; grid-template-columns: 44mm 1fr 52mm; gap: 5mm; padding: 4mm 0; border-bottom: 1px solid var(--filet); }
+.reseau:first-of-type { border-top: 1px solid var(--filet); }
+.reseau .nom { display: flex; align-items: center; gap: 2.5mm; font-family: var(--serif); font-weight: 700; font-size: 15pt; }
+.reseau .pourquoi { font-size: 9.4pt; color: var(--encre-2); margin-top: 2mm; line-height: 1.3; }
+.reseau .rythme { margin-top: 2mm; font-size: 9pt; font-weight: 700; }
+.col-t { font-size: 7.6pt; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--encre-3); margin-bottom: 1.5mm; }
+.reseau li { position: relative; padding-left: 4mm; font-size: 9.6pt; line-height: 1.3; margin-bottom: 1.2mm; }
+.reseau li::before { content: ""; position: absolute; left: 0; top: 1.9mm; width: 2mm; height: 2px; background: var(--rouge); }
+.reseau .regle li::before { background: var(--encre-3); }
+.reseau .regle { background: var(--fond); padding: 2.5mm 3mm 1.5mm; align-self: start; }
+
 .etapes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 4mm; margin-top: 4mm; counter-reset: e; }
 .etape { border-top: 1px solid var(--encre); padding-top: 2.5mm; }
 .etape::before { counter-increment: e; content: counter(e); display: block; font-family: var(--serif); font-weight: 700; font-size: 18pt; color: var(--rouge); line-height: 1; margin-bottom: 1.5mm; }
 .etape p { font-size: 9.8pt; color: var(--encre-2); }
 .etape b { color: var(--encre); }
 
-.garantie { margin-top: auto; border-left: 3px solid var(--rouge); padding: 2.5mm 0 2.5mm 4mm; font-family: var(--serif); font-size: 11.5pt; font-style: italic; color: var(--encre-2); }
-
-.pied { display: flex; justify-content: space-between; font-size: 8pt; color: var(--encre-3); border-top: 1px solid var(--filet); padding-top: 2.5mm; margin-top: 4mm; }
-
-/* Page 2 : les formules */
+/* Page 3 : formules, options, démonstration */
 .formules { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; margin-top: 4mm; }
 .formule { border: 1px solid var(--filet); border-top: 4px solid var(--encre); padding: 4mm 5mm 4.5mm; display: flex; flex-direction: column; }
-.formule.complet { border-top-color: var(--rouge); background: var(--fond); border-color: var(--fond); border-top-color: var(--rouge); }
+.formule.complet { background: var(--fond); border-color: var(--fond); border-top-color: var(--rouge); }
 .formule .nom { font-family: var(--serif); font-weight: 700; font-size: 17pt; }
 .formule .prix { margin-top: 1mm; font-size: 10pt; color: var(--encre-2); }
 .formule .prix b { font-family: var(--serif); font-size: 21pt; color: var(--encre); font-weight: 700; margin-right: 1mm; }
 .formule.complet .prix b { color: var(--rouge); }
-.formule ul { list-style: none; padding: 0; margin: 3mm 0 0; display: grid; gap: 1.5mm; }
+.formule ul { margin: 2.5mm 0 0; display: grid; gap: 1.3mm; }
 .formule li { position: relative; padding-left: 4.5mm; font-size: 9.8pt; line-height: 1.3; }
 .formule li::before { content: ""; position: absolute; left: 0; top: 1.9mm; width: 2.2mm; height: 2px; background: var(--rouge); }
 .formule li.plus { padding-left: 0; font-weight: 700; }
@@ -81,13 +125,15 @@ h2 { font-family: var(--serif); font-weight: 700; font-size: 16pt; line-height: 
 .essai { margin-top: 3.5mm; font-size: 10pt; color: var(--encre-2); }
 .essai b { color: var(--encre); }
 
-.options { margin-top: 3mm; display: grid; gap: 0; }
-.option { display: grid; grid-template-columns: 1fr 34mm; gap: 6mm; padding: 2mm 0; border-bottom: 1px solid var(--filet); }
+.options { margin-top: 3mm; }
+.option { display: grid; grid-template-columns: 1fr 36mm; gap: 6mm; padding: 2.6mm 0; border-bottom: 1px solid var(--filet); }
 .option:first-child { border-top: 1px solid var(--filet); }
-.option .t { font-weight: 700; font-size: 10.2pt; }
-.option .d { font-size: 9.3pt; color: var(--encre-2); margin-top: .4mm; line-height: 1.3; }
+.option .t { font-weight: 700; font-size: 10.4pt; }
+.option .d { font-size: 9.5pt; color: var(--encre-2); margin-top: .5mm; line-height: 1.32; }
 .option .p { text-align: right; font-weight: 600; font-size: 10pt; white-space: nowrap; }
 .option .p small { display: block; font-weight: 400; color: var(--encre-3); font-size: 8.5pt; }
+.option.phare { background: var(--fond); padding: 3mm 4mm; border: 0; border-left: 3px solid var(--rouge); margin-bottom: 1mm; }
+.option.phare + .option { border-top: 1px solid var(--filet); }
 
 .demo { margin-top: 5mm; background: var(--encre); color: #fff; padding: 4.5mm 6mm 5mm; position: relative; }
 .demo::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--rouge); }
@@ -99,15 +145,23 @@ h2 { font-family: var(--serif); font-weight: 700; font-size: 16pt; line-height: 
 body.narrateur .variante-voix { display: none; }
 body.narrateur .variante-narrateur { display: block; }
 
-.fin { margin-top: auto; padding-top: 2.5mm; display: flex; justify-content: space-between; align-items: flex-end; gap: 10mm; }
+.fin { margin-top: auto; padding-top: 3mm; display: flex; justify-content: space-between; align-items: flex-end; gap: 10mm; }
 .fin p { font-family: var(--serif); font-size: 12pt; line-height: 1.35; max-width: 125mm; }
 .fin sup { line-height: 0; font-size: .65em; }
 .fin .sig { font-family: var(--serif); font-style: italic; font-size: 13pt; white-space: nowrap; }
+.page:last-child .pied { margin-top: 4mm; }
 </style>
 </head>
 <body>
 
-<!-- Page 1 : l'idée et le mois type -->
+<!-- Logos (Simple Icons, CC0) réutilisés par <use> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-li" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452z"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"/></symbol>
+</svg>
+
+<!-- Page 1 : un numéro devient un mois de publications -->
 <section class="page">
   <div class="entete">
     <div class="marque">La Revue <span>travailliste</span></div>
@@ -119,25 +173,173 @@ body.narrateur .variante-narrateur { display: block; }
 
   <div class="section">
     <div class="etiquette">Ce que devient un numéro</div>
-    <h2>L’exemple du N°01, « Quand le ciel s’enflamme »</h2>
+    <h2>L’exemple du N°01</h2>
 
-    <div class="flux">
-      <div class="bloc"><div class="n">1</div><div class="l">numéro par mois, écrit par votre équipe</div></div>
-      <div class="fl">→</div>
-      <div class="bloc rouge"><div class="n">12</div><div class="l">publications sur chaque réseau, soit 3 par semaine</div></div>
-      <div class="fl">+</div>
-      <div class="bloc"><div class="n">4</div><div class="l">publications prêtes pour votre profil LinkedIn</div></div>
+    <div class="transfo">
+      <div class="numero">
+        <div class="q">Ce que vous publiez</div>
+        <div class="n">N°01</div>
+        <div class="titre">« Quand le ciel s’enflamme »</div>
+        <ul>
+          <li><b>Le dossier</b> et ses 10 recommandations</li>
+          <li><b>3 articles</b> : Réussir, Villes, Santé</li>
+          <li><b>Le bloc Data</b></li>
+          <li><b>L’Humeur</b></li>
+          <li><b>Le podcast</b></li>
+          <li><b>Le Lexique</b></li>
+        </ul>
+        <div class="bas">Une fois par mois, dans le Studio, comme aujourd’hui.</div>
+      </div>
+
+      <div class="fleche"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+
+      <div class="mois">
+        <div class="mois-tete">
+          <div class="t">Ce que je publie, semaine après semaine</div>
+          <div class="reseaux">
+            <span class="logo petit li"><svg><use href="#i-li"/></svg></span>
+            <span class="logo petit ig"><svg><use href="#i-ig"/></svg></span>
+            <span class="logo petit fb"><svg><use href="#i-fb"/></svg></span>
+          </div>
+        </div>
+        <div class="semaine">
+          <div class="s"><b>1</b>Sortie</div>
+          <div class="pubs">
+            <div class="pub"><div class="f">Visuel</div><div class="c">L’annonce du numéro, avec la Une</div></div>
+            <div class="pub"><div class="f">Carrousel</div><div class="c">Le dossier en quelques pages</div></div>
+            <div class="pub"><div class="f">Vidéo</div><div class="c">Le podcast, un premier passage</div></div>
+          </div>
+        </div>
+        <div class="semaine">
+          <div class="s"><b>2</b></div>
+          <div class="pubs">
+            <div class="pub"><div class="f">Visuel</div><div class="c">Le chiffre du bloc Data</div></div>
+            <div class="pub"><div class="f">Visuel</div><div class="c">Un témoignage de Saône-et-Loire</div></div>
+            <div class="pub"><div class="f">Carrousel</div><div class="c">Les 10 recommandations, une par page</div></div>
+          </div>
+        </div>
+        <div class="semaine">
+          <div class="s"><b>3</b></div>
+          <div class="pubs">
+            <div class="pub"><div class="f">Vidéo</div><div class="c">Le podcast, un second passage</div></div>
+            <div class="pub"><div class="f">Visuel</div><div class="c">L’Humeur</div></div>
+            <div class="pub"><div class="f">Visuel</div><div class="c">Un chiffre du bilan santé, avec sa source</div></div>
+          </div>
+        </div>
+        <div class="semaine">
+          <div class="s"><b>4</b></div>
+          <div class="pubs">
+            <div class="pub"><div class="f">Visuel</div><div class="c">Le mot du mois, tiré du Lexique</div></div>
+            <div class="pub"><div class="f">Visuel</div><div class="c">Une tribune de « Dans les médias »</div></div>
+            <div class="pub"><div class="f">Visuel</div><div class="c">L’invitation à s’abonner à la newsletter</div></div>
+          </div>
+        </div>
+        <div class="profil">
+          <span class="logo petit li"><svg><use href="#i-li"/></svg></span>
+          <span><b>Et chaque semaine</b>, une publication prête pour votre profil LinkedIn personnel.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chiffres">
+    <div><div class="n">12</div><div class="l">publications par mois, environ trois par semaine</div></div>
+    <div><div class="n">3</div><div class="l">réseaux, avec un format adapté à chacun (détail page suivante)</div></div>
+    <div><div class="n">+ 4</div><div class="l">publications pour votre profil LinkedIn, que vous validez</div></div>
+  </div>
+
+  <p class="garantie">Chaque publication reprend vos textes et vos chiffres, sans rien inventer. Rien ne part sans votre accord.</p>
+
+  <div class="pied"><span>La Revue travailliste · Convergences travaillistes</span><span>1 / 3</span></div>
+</section>
+
+<!-- Page 2 : réseau par réseau, et le déroulé du mois -->
+<section class="page">
+  <div class="entete">
+    <div class="marque">La Revue <span>travailliste</span></div>
+    <div class="date">Proposition · octobre 2026</div>
+  </div>
+
+  <div class="section">
+    <div class="etiquette">Réseau par réseau</div>
+    <h2>Le même numéro, un format pour chaque réseau</h2>
+    <p class="intro">Chaque réseau a ses usages : on ne publie pas la même chose sur LinkedIn et sur Instagram. Avant la première publication, je remets aussi chaque compte en ordre, pour que tout visiteur trouve la revue et la newsletter.</p>
+  </div>
+
+  <div style="margin-top:4mm">
+    <div class="reseau">
+      <div>
+        <div class="nom"><span class="logo li"><svg><use href="#i-li"/></svg></span>LinkedIn</div>
+        <p class="pourquoi">Le réseau de votre public : élus, syndicalistes, cadres, journalistes. Les profils personnels y portent bien plus loin que les pages.</p>
+        <p class="rythme">3 publications par semaine sur la page, 1 sur votre profil</p>
+      </div>
+      <div>
+        <div class="col-t">Ce que je publie</div>
+        <ul>
+          <li>Les carrousels en document, que l’on feuillette directement dans le fil</li>
+          <li>Les chiffres et les citations, accompagnés de quelques lignes de texte</li>
+          <li>Les vidéos du podcast, sous-titrées</li>
+          <li>Le lien vers l’article en premier commentaire</li>
+          <li>Pour votre profil : une publication par semaine, écrite à partir du numéro, que vous validez</li>
+        </ul>
+      </div>
+      <div class="regle">
+        <div class="col-t">Ce que je règle d’abord</div>
+        <ul>
+          <li>La fiche de la page : association, description, lien vers la revue</li>
+          <li>Logo et bannière aux couleurs de la revue</li>
+          <li>L’invitation de vos relations à suivre la page</li>
+        </ul>
+      </div>
     </div>
 
-    <div class="tuiles">
-      <div class="tuile"><div class="c">2</div><div class="t">Carrousels</div><div class="d">Le dossier en quelques pages ; les 10 recommandations, une par page</div></div>
-      <div class="tuile"><div class="c">2</div><div class="t">Chiffres</div><div class="d">Le chiffre du bloc Data ; un chiffre du bilan santé, avec sa source</div></div>
-      <div class="tuile"><div class="c">2</div><div class="t">Citations</div><div class="d">Les témoignages de Saône-et-Loire, en grand</div></div>
-      <div class="tuile"><div class="c">2</div><div class="t">Vidéos du podcast</div><div class="d">Montage des meilleurs passages, mis en vidéo avec sous-titres et habillage de la revue</div></div>
-      <div class="tuile"><div class="c">1</div><div class="t">L’Humeur</div><div class="d">Mise en image, ou en bande dessinée avec la formule Complet</div></div>
-      <div class="tuile"><div class="c">1</div><div class="t">Le mot du mois</div><div class="d">Tiré de l’encadré Lexique</div></div>
-      <div class="tuile"><div class="c">1</div><div class="t">Une tribune relayée</div><div class="d">Vos parutions de « Dans les médias »</div></div>
-      <div class="tuile"><div class="c">1</div><div class="t">L’annonce du numéro</div><div class="d">Avec l’invitation à s’abonner à la newsletter</div></div>
+    <div class="reseau">
+      <div>
+        <div class="nom"><span class="logo ig"><svg><use href="#i-ig"/></svg></span>Instagram</div>
+        <p class="pourquoi">Le réseau de l’image : chiffres, citations et vidéos courtes y circulent le plus.</p>
+        <p class="rythme">3 publications par semaine</p>
+      </div>
+      <div>
+        <div class="col-t">Ce que je publie</div>
+        <ul>
+          <li>Les carrousels en images, au format portrait</li>
+          <li>Les visuels : chiffres, citations, l’Humeur, le mot du mois</li>
+          <li>Les vidéos verticales (Reels) créées à partir du podcast</li>
+          <li>Une story le jour de la sortie de chaque numéro</li>
+        </ul>
+      </div>
+      <div class="regle">
+        <div class="col-t">Ce que je règle d’abord</div>
+        <ul>
+          <li>Une présentation qui parle de la revue</li>
+          <li>Le lien vers le site et l’inscription à la newsletter</li>
+          <li>La photo de profil</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="reseau">
+      <div>
+        <div class="nom"><span class="logo fb"><svg><use href="#i-fb"/></svg></span>Facebook</div>
+        <p class="pourquoi">Votre communauté déjà en place, près de 300 abonnés : celle qui partage et commente.</p>
+        <p class="rythme">3 publications par semaine</p>
+      </div>
+      <div>
+        <div class="col-t">Ce que je publie</div>
+        <ul>
+          <li>Les mêmes visuels et vidéos qu’Instagram, adaptés</li>
+          <li>Le lien direct vers l’article, que Facebook accepte dans la publication</li>
+          <li>Le tout programmé en même temps qu’Instagram</li>
+        </ul>
+      </div>
+      <div class="regle">
+        <div class="col-t">Ce que je règle d’abord</div>
+        <ul>
+          <li>Une adresse lisible, sans suite de chiffres</li>
+          <li>Le bouton « S’inscrire » vers la newsletter</li>
+          <li>La couverture aux couleurs de la revue</li>
+        </ul>
+      </div>
     </div>
   </div>
 
@@ -152,19 +354,17 @@ body.narrateur .variante-narrateur { display: block; }
     </div>
   </div>
 
-  <p class="garantie">Chaque publication reprend vos textes et vos chiffres, sans rien inventer. Rien ne part sans votre accord.</p>
-
-  <div class="pied"><span>La Revue travailliste · Convergences travaillistes</span><span>1 / 2</span></div>
+  <div class="pied"><span>La Revue travailliste · Convergences travaillistes</span><span>2 / 3</span></div>
 </section>
 
-<!-- Page 2 : formules, options, démonstration -->
+<!-- Page 3 : formules, options, démonstration -->
 <section class="page">
   <div class="entete">
     <div class="marque">La Revue <span>travailliste</span></div>
     <div class="date">Proposition · octobre 2026</div>
   </div>
 
-  <div class="section" style="margin-top:6mm">
+  <div class="section">
     <div class="etiquette">Deux formules</div>
     <h2>À choisir selon l’ambition du mois</h2>
     <div class="formules">
@@ -172,7 +372,7 @@ body.narrateur .variante-narrateur { display: block; }
         <div class="nom">Essentiel</div>
         <div class="prix"><b>290 €</b>par mois</div>
         <ul>
-          <li>Vos comptes remis en ordre, une fois : noms, présentations, liens vers la revue et la newsletter</li>
+          <li>Vos trois comptes remis en ordre, une fois (page 2)</li>
           <li>12 publications par mois sur LinkedIn, Instagram et Facebook</li>
           <li>4 publications prêtes pour votre profil LinkedIn, à valider</li>
           <li>Création de 2 vidéos à partir du podcast : montage des meilleurs passages, sous-titres, habillage animé de la revue</li>
@@ -197,16 +397,16 @@ body.narrateur .variante-narrateur { display: block; }
   <div class="section" style="margin-top:5mm">
     <div class="etiquette">En option</div>
     <div class="options">
-      <div class="option">
-        <div><div class="t">Numéro clé en main</div><div class="d">Vous m’envoyez le Word : je relis, je mets le numéro en ligne dans le Studio, je prépare et j’envoie la newsletter.</div></div>
+      <div class="option phare">
+        <div><div class="t">Numéro clé en main</div><div class="d">Vous m’envoyez simplement le Word du numéro. <b>J’importe moi-même les articles dans le Studio</b> : titres, chapôs, intertitres, encadrés, citations, tableaux et photos, chacun à sa place. Je corrige les fautes sans toucher au fond, je vérifie l’affichage sur téléphone, puis je prépare et j’envoie la newsletter.</div></div>
         <div class="p">150 € par numéro<small>190 € sans formule</small></div>
       </div>
       <div class="option">
-        <div><div class="t">Entretien du site</div><div class="d">Le domaine, les mises à jour, les sauvegardes, les petites retouches, et une réponse sous deux jours ouvrés.</div></div>
+        <div><div class="t">Entretien du site</div><div class="d">Domaine, mises à jour, sauvegardes, petites retouches, réponse sous deux jours ouvrés.</div></div>
         <div class="p">50 € par mois</div>
       </div>
       <div class="option">
-        <div><div class="t">Publicité</div><div class="d">Après deux mois de publications, un premier test à petit budget. Depuis octobre 2025, Meta et Google refusent en Europe la plupart des publicités sur les sujets politiques et de société : le test dira ce qui est possible.</div></div>
+        <div><div class="t">Publicité</div><div class="d">Après deux mois, un test à petit budget : depuis octobre 2025, Meta et Google refusent en Europe la plupart des publicités politiques et de société.</div></div>
         <div class="p">Sur devis<small>budget payé à la plateforme</small></div>
       </div>
     </div>
@@ -216,7 +416,7 @@ body.narrateur .variante-narrateur { display: block; }
     <div class="etiquette">Offert</div>
     <h2>Une démonstration, si vous le souhaitez</h2>
     <div class="variante-voix">
-      <p>Pour vous montrer ce que permet la formule Complet, je vous propose de transformer l’Humeur du N°01 en une courte vidéo verticale, <b>lue avec votre propre voix</b>, reconstituée à partir d’un enregistrement. Elle reste strictement privée : je ne l’envoie qu’à vous, rien n’est publié, et votre enregistrement est supprimé ensuite, sauf si vous souhaitez vous en servir pour la revue.</p>
+      <p>Pour vous montrer ce que permet la formule Complet, je vous propose de transformer l’Humeur du N°01 en une courte vidéo verticale, <b>lue avec votre propre voix</b>, reconstituée à partir d’un enregistrement. Elle reste privée : rien n’est publié, et votre enregistrement est supprimé ensuite, sauf si vous souhaitez vous en servir pour la revue.</p>
       <p>Si cela vous tente, envoyez-moi <b>une à deux minutes de votre voix</b> : lisez n’importe quel texte, au calme, avec l’application Dictaphone de votre téléphone. Je vous renvoie la vidéo sous trois jours.</p>
     </div>
     <div class="variante-narrateur">
@@ -230,7 +430,7 @@ body.narrateur .variante-narrateur { display: block; }
     <div class="sig">Karim</div>
   </div>
 
-  <div class="pied"><span>La Revue travailliste · Convergences travaillistes</span><span>2 / 2</span></div>
+  <div class="pied"><span>La Revue travailliste · Convergences travaillistes</span><span>3 / 3</span></div>
 </section>
 
 </body>

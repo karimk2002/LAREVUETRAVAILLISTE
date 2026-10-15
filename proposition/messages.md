@@ -17,7 +17,7 @@ Rien n'est envoyé. À envoyer par Karim le lundi 19 ou le mardi 20 octobre.
 
 > Bonjour Jean-Marc,
 >
-> Comme promis, voici ma proposition pour la suite, en pièce jointe (deux pages).
+> Comme promis, voici ma proposition pour la suite, en pièce jointe (trois pages).
 >
 > L'idée tient en une phrase : vous écrivez la revue, je la fais circuler. Chaque numéro devient un mois de publications sur LinkedIn, Instagram et Facebook, tirées de vos textes, de vos chiffres et de votre podcast, sans que vous ayez rien de plus à écrire. Je vous propose de commencer par un essai de trois mois, du N°01 au N°03.
 >
