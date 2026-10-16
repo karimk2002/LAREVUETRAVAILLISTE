@@ -62,7 +62,14 @@ Il demande la vidéo de l'Humeur pour son équipe et une expérimentation limit�
 >
 > Avec plaisir pour la vidéo de l'Humeur du N°01 : je vous l'envoie lundi sur WhatsApp, pour que votre équipe puisse la voir avant le lancement. Je la ferai sous le nom « La revue Travailliste », comme vos réseaux.
 >
-> Pour l'expérimentation sur le numéro de lancement, je vous propose la formule Essentiel pour le seul N°01, à 290 €, sans engagement. Elle comprend le kit de démarrage (vos comptes mis en ordre, la charte et les modèles de visuels, qui vous restent dans tous les cas), les douze contenus du numéro pour LinkedIn, Instagram et Facebook, deux vidéos tirées du podcast et un bilan en fin de mois. Si vous souhaitez poursuivre ensuite, l'offre de lancement reste valable : le N°03 vous serait offert.
+> Pour l'expérimentation sur le numéro de lancement, je vous propose un pilote resserré, pensé pour vos contraintes : je vous demande seulement de couvrir mon temps, soit 150 € au lieu des 290 € de la formule Essentiel. Il comprend :
+>
+> - la mise en ordre de vos comptes au moment où vous les renommez : présentations, liens, photos de profil et bannières aux couleurs de la revue ;
+> - 6 publications pour le lancement du N°01, prêtes à poster sur LinkedIn, Instagram et Facebook, avec leurs dates ;
+> - une vidéo tirée du podcast, sous-titrée ;
+> - un court bilan à la fin du mois, pour que votre équipe juge sur pièces.
+>
+> Si l'essai vous convainc, nous passerons ensuite à la formule de votre choix, et l'offre de lancement restera valable.
 >
 > Pour bien caler les choses, pourriez-vous me confirmer la date de sortie du N°01 et m'envoyer les liens de vos comptes une fois renommés ?
 >
@@ -71,7 +78,7 @@ Il demande la vidéo de l'Humeur pour son équipe et une expérimentation limit�
 > Bien à vous,
 > Karim
 
-Si le prix doit descendre : remplacer le paragraphe du pilote par le kit de démarrage seul, à 190 €.
+Plancher : 150 €. S'il trouve encore cela trop cher, réduire le contenu (par exemple 3 publications et pas de vidéo du podcast), jamais le prix. Ne pas faire le mois gratuitement : la démonstration offerte, c'est la vidéo de l'Humeur.
 
 ### WhatsApp, lundi 19, avec la vidéo
 
@@ -79,4 +86,4 @@ Si le prix doit descendre : remplacer le paragraphe du pilote par le kit de dém
 
 ### Relance, mercredi 21
 
-> Bonjour Jean-Marc, qu'en a pensé l'équipe ? Si le pilote sur le N°01 vous convient, il me faut votre accord d'ici lundi 26 pour être prêt à la sortie du numéro.
+> Bonjour Jean-Marc, qu'en a pensé l'équipe ? Si le pilote à 150 € sur le N°01 vous convient, il me faut votre accord d'ici lundi 26 pour être prêt à la sortie du numéro.

@@ -10,13 +10,13 @@ Mis à jour le vendredi 16 octobre 2026.
   2. **la vidéo verticale de l'Humeur du N°01** (la démonstration offerte), pour la montrer à sa petite équipe.
 - **Leur calendrier** : ce week-end, ils renomment leurs réseaux en « La revue Travailliste » et montent un fichier de contacts de journalistes (prêt dimanche soir, espère-t-il). Lancement officiel sur les réseaux **la semaine du 19 octobre**.
 
-Lecture : ce n'est pas un refus, mais **rien n'indique qu'il veut payer maintenant**. Il ne parle ni de prix ni de devis, insiste sur le budget, et renvoie l'engagement à plus tard (« reprendre contact lorsque notre organisation sera davantage installée »). L'« expérimentation » ressemble surtout à la démonstration gratuite. Le pilote payant est donc à poser clairement, avec un prix, en le laissant libre de dire non. La vidéo est ce qui décidera la suite : elle doit arriver **avant leur lancement**, pas sous trois jours.
+Lecture : ce n'est pas un refus, mais **rien n'indique qu'il veut payer maintenant**. Il ne parle ni de prix ni de devis, insiste sur le budget, et renvoie l'engagement à plus tard (« reprendre contact lorsque notre organisation sera davantage installée »). L'« expérimentation » ressemble surtout à la démonstration gratuite. Le pilote payant est donc posé clairement, avec un prix, en le laissant libre de dire non. La vidéo est ce qui décidera la suite : elle doit arriver **avant leur lancement**, pas sous trois jours.
 
 ## Prochaines étapes
 
 | Quand | Quoi | Qui |
 |---|---|---|
-| Ven. 16 – sam. 17 oct. | Répondre à Jean-Marc (brouillon dans `proposition/messages.md`) : merci, vidéo lundi, proposition de pilote N°01 | Karim |
+| Ven. 16 – sam. 17 oct. | Répondre à Jean-Marc (brouillon dans `proposition/messages.md`) : merci, vidéo lundi, pilote N°01 à 150 € | Karim |
 | Sam. 17 – dim. 18 oct. | Produire la vidéo de l'Humeur N°01 (voir ci-dessous) | Karim |
 | **Lun. 19 oct.** | Envoyer la vidéo en privé sur WhatsApp, avec deux lignes d'usage | Karim |
 | Mer. 21 oct. | Relance : avis de l'équipe, et oui ou non pour le pilote N°01 | Karim |
@@ -35,15 +35,13 @@ Version **narrateur** : Jean-Marc n'a pas envoyé d'enregistrement de sa voix et
 
 Elle sert à convaincre l'équipe : soigner les trois premières secondes et la fin (logo, lien vers la revue).
 
-### Le pilote N°01 (recommandation)
+### Le pilote N°01 : décidé
 
-Ne pas baisser le prix des formules (règle déjà fixée dans `messages.md`). Le pilote, c'est simplement **Essentiel pour un seul mois** :
-
-- **Pilote N°01 : 290 €**, sans engagement. Kit de démarrage compris (il leur reste), 12 contenus du N°01 déclinés pour les trois réseaux, 2 vidéos du podcast, bilan en fin de mois.
-- S'ils continuent avec le N°02, l'offre de lancement reste valable : **le N°03 est offert**. Le pilote ne leur fait rien perdre.
-- **Repli si 290 € ne passe pas** : le kit de démarrage seul, **190 €**. C'est la partie la plus utile au moment où ils renomment leurs comptes et lancent seuls : présentations, bannières, modèles de visuels, calendrier type.
-
-À décider par Karim avant d'envoyer la réponse : le prix du pilote (290 € recommandé, 190 € en repli).
+- **Gratuit** : uniquement la vidéo de l'Humeur (la démonstration promise). Le mois du N°01 n'est pas offert.
+- **Pilote N°01 : 150 €**, présenté comme la couverture du temps passé, avec la valeur affichée (290 € pour Essentiel) pour ne pas faire baisser le prix de référence.
+- **Contenu réduit plutôt que prix bradé** : comptes remis en ordre (au moment où ils les renomment), 6 publications de lancement, 1 vidéo du podcast, un court bilan. Pas de propositions de texte LinkedIn, pas de newsletter.
+- S'ils continuent : formule au choix, offre de lancement toujours valable.
+- **Plancher : 150 €.** Si c'est encore trop, on retire du contenu, pas de l'argent.
 
 ### Ce qu'il faut leur demander
 
