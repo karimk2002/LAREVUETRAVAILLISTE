@@ -4,7 +4,8 @@
 - `La-Revue-travailliste-proposition-diffusion.pdf` : version avec démonstration dans sa propre voix.
 - `La-Revue-travailliste-proposition-diffusion-narrateur.pdf` : même document, démonstration avec une voix de narrateur.
 - `apercu/` : une image par page et par version, pour relire sans ouvrir le PDF.
-- `messages.md` : e-mail, WhatsApp et suite à donner.
+- `messages.md` : e-mail, WhatsApp et suite à donner (dont la réponse à Jean-Marc du 16 octobre).
+- `../STATUS.md` : où on en est et prochaines étapes.
 
 Régénérer les PDF après une modification :
 
