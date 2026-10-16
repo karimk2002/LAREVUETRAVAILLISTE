@@ -10,7 +10,7 @@ Mis à jour le vendredi 16 octobre 2026.
   2. **la vidéo verticale de l'Humeur du N°01** (la démonstration offerte), pour la montrer à sa petite équipe.
 - **Leur calendrier** : ce week-end, ils renomment leurs réseaux en « La revue Travailliste » et montent un fichier de contacts de journalistes (prêt dimanche soir, espère-t-il). Lancement officiel sur les réseaux **la semaine du 19 octobre**.
 
-Lecture : ce n'est pas un refus. C'est un « oui » à la démonstration et un « peut-être » payant, limité à un mois. La vidéo est ce qui décidera la suite : elle doit arriver **avant leur lancement**, pas sous trois jours.
+Lecture : ce n'est pas un refus, mais **rien n'indique qu'il veut payer maintenant**. Il ne parle ni de prix ni de devis, insiste sur le budget, et renvoie l'engagement à plus tard (« reprendre contact lorsque notre organisation sera davantage installée »). L'« expérimentation » ressemble surtout à la démonstration gratuite. Le pilote payant est donc à poser clairement, avec un prix, en le laissant libre de dire non. La vidéo est ce qui décidera la suite : elle doit arriver **avant leur lancement**, pas sous trois jours.
 
 ## Prochaines étapes
 
