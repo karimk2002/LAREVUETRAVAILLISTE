@@ -5,7 +5,7 @@ Mis à jour le vendredi 16 octobre 2026.
 ## Situation
 
 - **Proposition envoyée** à Jean-Marc (trois pages, `proposition/`).
-- **Réponse de Jean-Marc, 16 octobre** : d'accord sur l'analyse et les pistes, mais budget serré (organisation en cours de relance). Il demande :
+- **Réponse de Jean-Marc sur WhatsApp, 16 octobre** : d'accord sur l'analyse et les pistes, mais budget serré (organisation en cours de relance). Il demande :
   1. **une expérimentation limitée au numéro de lancement** (N°01), pour tester avant de s'engager, puis reprendre contact « lorsque l'organisation sera davantage installée » ;
   2. **la vidéo verticale de l'Humeur du N°01** (la démonstration offerte), pour la montrer à sa petite équipe.
 - **Leur calendrier** : ce week-end, ils renomment leurs réseaux en « La revue Travailliste » et montent un fichier de contacts de journalistes (prêt dimanche soir, espère-t-il). Lancement officiel sur les réseaux **la semaine du 19 octobre**.
@@ -16,7 +16,7 @@ Lecture : ce n'est pas un refus, mais **rien n'indique qu'il veut payer maintena
 
 | Quand | Quoi | Qui |
 |---|---|---|
-| Ven. 16 – sam. 17 oct. | Répondre à Jean-Marc (brouillon dans `proposition/messages.md`) : merci, vidéo lundi, pilote N°01 à 150 € | Karim |
+| Sam. 17 oct. | Répondre à Jean-Marc sur WhatsApp (brouillon dans `proposition/messages.md`) : merci, vidéo lundi, pilote N°01 à 150 € | Karim |
 | Sam. 17 – dim. 18 oct. | Produire la vidéo de l'Humeur N°01 (voir ci-dessous) | Karim |
 | **Lun. 19 oct.** | Envoyer la vidéo en privé sur WhatsApp, avec deux lignes d'usage | Karim |
 | Mer. 21 oct. | Relance : avis de l'équipe, et oui ou non pour le pilote N°01 | Karim |

@@ -1,6 +1,6 @@
 # Envoi de la proposition à Jean-Marc
 
-Proposition envoyée. Jean-Marc a répondu le 16 octobre : voir la réponse à lui faire en bas de ce fichier, et `STATUS.md` à la racine pour la suite.
+Proposition envoyée. Jean-Marc a répondu sur WhatsApp le 16 octobre : voir la réponse à lui faire en bas de ce fichier, et `STATUS.md` à la racine pour la suite.
 
 ## Quelle version joindre
 
@@ -48,34 +48,21 @@ Repli prévu, dans cet ordre, sans baisser davantage le prix des formules :
 1. Le kit de démarrage seul (190 €), plus le Numéro clé en main à l'unité (100 € par numéro).
 2. Essentiel sans les propositions de texte pour son profil LinkedIn.
 
-## Réponse de Jean-Marc (16 octobre) : ce qu'on lui répond
+## Réponse de Jean-Marc (WhatsApp, 16 octobre) : ce qu'on lui répond
 
 Il demande la vidéo de l'Humeur pour son équipe et une expérimentation limitée au N°01, avec un budget serré. On envoie la vidéo avant leur lancement et on propose le pilote sans baisser les prix.
 
-### E-mail, à envoyer vendredi 16 ou samedi 17
+### WhatsApp, à envoyer samedi 17
 
-**Objet :** Re: La diffusion de La Revue travailliste : ma proposition
-
-> Bonjour Jean-Marc,
+> Bonjour Jean-Marc, merci pour votre retour, et bravo pour le lancement qui approche !
 >
-> Merci pour votre réponse, et bravo pour le lancement qui approche.
+> Avec plaisir pour la vidéo de l'Humeur : je vous l'envoie lundi, pour que l'équipe puisse la voir avant le lancement. Je la fais sous le nom « La revue Travailliste ».
 >
-> Avec plaisir pour la vidéo de l'Humeur du N°01 : je vous l'envoie lundi sur WhatsApp, pour que votre équipe puisse la voir avant le lancement. Je la ferai sous le nom « La revue Travailliste », comme vos réseaux.
+> Pour l'expérimentation sur le N°01, je vous propose un pilote resserré où je vous demande seulement de couvrir mon temps : 150 € au lieu de 290 €. Il comprend la mise en ordre de vos comptes (présentations, photos, bannières, puisque vous les renommez), 6 publications pour le lancement avec leurs dates, une vidéo tirée du podcast, et un petit bilan en fin de mois. Si l'essai vous convainc, on passera ensuite à la formule de votre choix, avec l'offre de lancement.
 >
-> Pour l'expérimentation sur le numéro de lancement, je vous propose un pilote resserré, pensé pour vos contraintes : je vous demande seulement de couvrir mon temps, soit 150 € au lieu des 290 € de la formule Essentiel. Il comprend :
+> Deux petites questions : la date de sortie du N°01, et les liens de vos comptes une fois renommés ?
 >
-> - la mise en ordre de vos comptes au moment où vous les renommez : présentations, liens, photos de profil et bannières aux couleurs de la revue ;
-> - 6 publications pour le lancement du N°01, prêtes à poster sur LinkedIn, Instagram et Facebook, avec leurs dates ;
-> - une vidéo tirée du podcast, sous-titrée ;
-> - un court bilan à la fin du mois, pour que votre équipe juge sur pièces.
->
-> Si l'essai vous convainc, nous passerons ensuite à la formule de votre choix, et l'offre de lancement restera valable.
->
-> Pour bien caler les choses, pourriez-vous me confirmer la date de sortie du N°01 et m'envoyer les liens de vos comptes une fois renommés ?
->
-> Bon week-end, et à lundi pour la vidéo.
->
-> Bien à vous,
+> Bon week-end !
 > Karim
 
 Plancher : 150 €. S'il trouve encore cela trop cher, réduire le contenu (par exemple 3 publications et pas de vidéo du podcast), jamais le prix. Ne pas faire le mois gratuitement : la démonstration offerte, c'est la vidéo de l'Humeur.
