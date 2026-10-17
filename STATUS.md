@@ -25,6 +25,8 @@ Lecture : ce n'est pas un refus, mais **rien n'indique qu'il veut payer maintena
 
 ### La vidéo de l'Humeur N°01
 
+Prompt de production prêt : `video-humeur/PROMPT.md` (brainstorming avec Karim, puis production par agents, puis vérification indépendante).
+
 Version **narrateur** : Jean-Marc n'a pas envoyé d'enregistrement de sa voix et n'en parle pas. Ne pas le relancer là-dessus maintenant ; la version « sa voix » pourra être proposée plus tard.
 
 1. Récupérer le texte de l'Humeur du N°01 dans le Studio (Humeurs).
