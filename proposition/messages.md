@@ -74,3 +74,30 @@ Plancher : 150 €. S'il trouve encore cela trop cher, réduire le contenu (par 
 ### Relance, mercredi 21
 
 > Bonjour Jean-Marc, qu'en a pensé l'équipe ? Si le pilote à 150 € sur le N°01 vous convient, il me faut votre accord d'ici lundi 26 pour être prêt à la sortie du numéro.
+
+## Pilote accepté (WhatsApp, 18 octobre) : ce qu'on lui répond
+
+Il accepte le pilote à 150 €, vise un lancement du site jeudi 22, n'arrive pas à se connecter à Brevo, veut mobiliser un fichier d'environ 1 000 contacts et demande quoi faire pour LinkedIn. Détail et raisonnement dans `STATUS.md`.
+
+### WhatsApp, à envoyer dimanche 18
+
+Compléter la partie Brevo selon ce que tu trouves dans le compte.
+
+> Bonjour Jean-Marc, merci, ravi qu'on démarre ensemble ! C'est noté pour jeudi : je cale les publications et la vidéo du podcast sur le lancement. Je vous envoie la vidéo de l'Humeur demain.
+>
+> Pour la newsletter, elle passe bien par Brevo : le site recueille les inscriptions, Brevo s'occupe des envois, des désinscriptions et des statistiques. Je vous envoie vos accès aujourd'hui, et je vous propose 30 minutes en visio mercredi pour vous montrer comment préparer et envoyer une lettre seul, à partir d'un modèle que je vous laisse.
+>
+> Pour le fichier de contacts, une précaution importante : on ne peut pas les abonner directement à la newsletter sans leur accord (RGPD), et Brevo suspend les comptes qui écrivent à des listes non consenties, ce qui serait fâcheux la semaine du lancement. Je vous propose plutôt une invitation unique à votre réseau, avec un lien pour s'inscrire. Pour les journalistes et les think tanks, un message personnel de votre part avec le communiqué de lancement sera plus efficace.
+>
+> Pour LinkedIn, oui : le plus simple est de créer une nouvelle page « La revue Travailliste » depuis votre profil, puis de m'y ajouter comme administrateur. Je m'occupe de la présentation et de la bannière, et l'ancienne page pourra être désactivée.
+>
+> Il me faudrait enfin le fichier audio du podcast du N°01, et savoir si vous publiez vous-même jeudi ou si vous préférez que je le fasse.
+>
+> Bon dimanche !
+> Karim
+
+### S'il demande de préparer la newsletter de lancement ou de nettoyer le fichier
+
+C'est hors pilote : option « Numéro clé en main », 100 €.
+
+> Avec plaisir. Ce n'est pas dans le pilote, mais c'est prévu dans l'option « Numéro clé en main » : 100 €, je prépare la lettre de lancement dans Brevo et je m'occupe de l'invitation à votre réseau.
