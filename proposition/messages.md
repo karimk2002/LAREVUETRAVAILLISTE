@@ -108,25 +108,35 @@ Il veut un forfait unique jusqu'au 31 décembre : le lancement, un appui techniq
 
 ### WhatsApp, à envoyer lundi 19 au soir (après la vidéo de l'Humeur)
 
-> Bonjour Jean-Marc, merci pour ce message très clair. Je comprends tout à fait vos contraintes, et l'idée d'un forfait jusqu'au 31 décembre me convient.
+Trois niveaux au lieu d'un chiffre unique : il voit jusqu'où il peut aller, et il est invité à donner son enveloppe. Le lancement reste à part, à 150 €, pour qu'il ne soit pas renégocié.
+
+> Bonjour Jean-Marc, merci pour ce message très clair. Je comprends tout à fait vos contraintes, et l'idée d'un forfait jusqu'au 31 décembre me convient très bien.
 >
-> Voici ce que je vous propose, en un seul forfait :
+> Le lancement reste comme convenu, à 150 €. Pour novembre et décembre, je vous propose trois niveaux, pour que vous choisissiez ce qui vous est le plus utile :
 >
-> 1. Le lancement, comme convenu : vos comptes remis en ordre, 6 publications, la vidéo du podcast et un bilan.
-> 2. Novembre et décembre, pour vos dossiers (4 au plus) : pour chacun, 3 visuels prêts à publier sur les réseaux à partir de vos textes, et une vérification de la mise en ligne sur le site. S'y ajoute une assistance technique (site, Brevo, réseaux) par WhatsApp, jusqu'à 2 heures par mois.
-> 3. Les deux ajustements du site : la pastille de l'auteur avec sa photo, et l'encart de votre livre avec sa couverture et le bouton « Commander maintenant ». Je peux les mettre en ligne avant le lancement de jeudi.
+> *1. Appui : 180 € par mois*
+> Pour chaque dossier, 3 visuels prêts à publier à partir de vos textes, et une vérification de la mise en ligne. Une assistance technique (site, Brevo, réseaux) par WhatsApp, jusqu'à 2 heures par mois.
 >
-> Pour que vous soyez autonomes ensuite, je vous laisse les modèles de visuels et je vous propose une heure de prise en main en visio.
+> *2. Visibilité : 240 € par mois*
+> L'Appui, plus une courte vidéo par dossier, la programmation des publications sur les trois réseaux, et un petit bilan chaque mois.
 >
-> L'ensemble représente environ 25 heures de travail. Forfait global : 590 €, payable en trois fois (150 € au lancement, 220 € début novembre, 220 € début décembre), sans aucun engagement au-delà du 31 décembre.
+> *3. Clé en main : 280 € par mois*
+> La Visibilité, plus la mise en ligne des dossiers dans le Studio et la préparation de chaque newsletter dans Brevo : vous n'avez qu'à m'envoyer vos textes.
+>
+> Dans les trois cas, j'inclus les deux ajustements du site (la pastille des auteurs avec leur photo, et l'encart de votre livre avec le bouton « Commander maintenant »), que je peux mettre en ligne avant jeudi, ainsi qu'une heure de prise en main en visio pour que vous soyez autonomes ensuite. Paiement au mois, sans aucun engagement après le 31 décembre.
+>
+> Ce sont des bases de discussion, pas un menu figé : on peut mélanger, ajouter une vidéo ou un dossier à l'unité, ou alléger. Si vous avez une enveloppe en tête, dites-la-moi simplement, et je compose le contenu qui va avec.
 >
 > Pour avancer sur le site, il me faudrait les photos et les noms des auteurs, et la couverture du livre en bonne définition.
 >
-> Pour LinkedIn, je suis d'accord avec vous : le plus simple est de créer une nouvelle page « La revue Travailliste » depuis votre profil, puis de m'y ajouter comme administrateur. L'ancienne pourra être désactivée ensuite.
->
-> Et une petite précaution pour Substack : gardez Brevo pour envoyer la newsletter, et Substack seulement pour republier les articles, pour que vos abonnés ne reçoivent pas deux lettres.
+> Pour LinkedIn, je suis d'accord avec vous : le plus simple est de créer une nouvelle page « La revue Travailliste » depuis votre profil, puis de m'y ajouter comme administrateur. Et une petite précaution pour Substack : gardez Brevo pour envoyer la newsletter, et Substack seulement pour republier les articles, pour que vos abonnés ne reçoivent pas deux lettres.
 >
 > Bonne soirée,
 > Karim
 
-Version plancher (s'il trouve 590 € trop élevé) : 2 visuels par dossier au lieu de 3, 490 € payables 150 € + 170 € + 170 €. Ne pas descendre plus bas sans retirer du contenu.
+### S'il fait une contre-proposition
+
+- **Il donne une enveloppe** : composer à partir d'elle, sans baisser les prix affichés. Par exemple 200 €/mois = l'Appui + une vidéo par mois ; 150 €/mois = l'Appui avec 2 visuels par dossier.
+- **Il choisit l'Appui mais veut une vidéo de temps en temps** : vidéo à l'unité, 60 €.
+- **Un dossier en plus** : facturé au prorata de la formule choisie (environ la moitié du prix mensuel).
+- **Plancher absolu** : 150 €/mois pour novembre-décembre. En dessous, retirer du contenu, pas de l'argent.
