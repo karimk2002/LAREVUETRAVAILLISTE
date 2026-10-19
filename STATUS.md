@@ -1,73 +1,87 @@
 # La Revue travailliste : où on en est
 
-Mis à jour le dimanche 18 octobre 2026.
+Mis à jour le lundi 19 octobre 2026.
 
 ## Situation
 
-- **Pilote N°01 accepté à 150 €** (WhatsApp, 18 octobre), sur le périmètre resserré : comptes remis en ordre, 6 publications de lancement, 1 vidéo tirée du podcast, un court bilan. La vidéo de l'Humeur reste offerte, à part.
-- **Lancement du site : jeudi 22 octobre** (« dans l'idéal »). Tout le pilote se cale sur cette date.
-- **Réseaux** : Facebook et Instagram renommés en « La revue Travailliste » par Jean-Marc. **LinkedIn bloqué** : l'ancienne page Convergences Travaillistes, peu utilisée, ne se renomme pas.
-- **Newsletter** : Jean-Marc n'arrive pas à se connecter à Brevo. Il veut être autonome (préparer, envoyer, suivre) et demande si on peut gérer la newsletter depuis le site.
-- **Fichier de contacts** : environ 1 000 contacts de son réseau, dont des journalistes et des think tanks, qu'il veut mobiliser au lancement. Fichier envoyé sur WhatsApp.
+- **Pilote N°01 accepté à 150 €** le 18 octobre (comptes remis en ordre, 6 publications de lancement, 1 vidéo du podcast, un court bilan). Il le reconfirme le 19.
+- **Nouvelle demande, 19 octobre** (après discussion avec les animateurs de l'association) : un **forfait global unique**, jusqu'au **31 décembre 2026**, sans engagement pour 2027, qui regroupe :
+  1. le lancement, comme convenu ;
+  2. un « accompagnement ponctuel » en novembre et décembre : 3 à 4 dossiers au total, **appui technique et graphique seulement**, leurs équipes écrivent ;
+  3. deux ajustements du site : une **pastille auteur avec photo** sur les articles, et le **remplacement de l'encart newsletter en bas à droite par l'encart du livre de Jean-Marc** (*Pour un travaillisme français*, L'Harmattan : couverture, texte, bouton « Commander maintenant »).
+  Il demande « la proposition financière la plus ajustée ».
+- **Lancement du site : jeudi 22 octobre.**
+- **Réseaux** : Facebook, Instagram et Substack renommés. LinkedIn bloqué (« un autre administrateur procède déjà à cette modification ») : il penche pour une nouvelle page.
+- Pas de nouvelles sur Brevo ni sur le fichier de 1 000 contacts depuis le 18.
+
+## Ce qu'il dit vraiment
+
+- **Le prix est plafonné par le groupe, pas par lui.** « Fonds propres » : pas de subvention, les membres paient de leur poche. Il porte la relation et doit revenir devant eux avec **un seul chiffre, connu d'avance**. Il craint une facture mensuelle ouverte, pas le travail.
+- **Il retire la formule mensuelle de la table.** Il ne parle plus d'Essentiel à 290 €/mois : il veut une fin de contrat datée et vérifiable.
+- **Le rythme éditorial est plus bas que prévu** : 3 à 4 dossiers en deux mois, pas un numéro complet par mois.
+- **Leur vrai but, c'est l'autonomie** (« nous familiariser pleinement avec son fonctionnement »). 2027 est réellement incertain. C'est une passation, pas le début d'un abonnement.
+- **« Dans la mesure où ils peuvent être réalisés simplement »** : il espère que les ajustements du site seront gratuits ou presque.
+- **« Accompagnement ponctuel »** n'a pas de limite. Sans plafond, cela devient une disponibilité illimitée par WhatsApp pour un prix fixe.
+- **L'encart du livre compte beaucoup pour lui** : c'est son propre ouvrage. Le mettre en ligne avant jeudi, c'est le geste le plus apprécié pour le moins d'heures.
+- **La formule de fin** (« conscient de la qualité de votre travail et de l'investissement… ») est la façon polie de demander un prix d'ami, en reconnaissant que tu as déjà beaucoup donné. Ce n'est pas une mise en concurrence.
+
+## Proposition forfaitaire (à valider par Karim avant envoi)
+
+Un seul chiffre, un périmètre fermé, un paiement étalé. Brouillon du message dans `proposition/messages.md`.
+
+| Bloc | Contenu | Temps estimé |
+|---|---|---|
+| Lancement (déjà accepté) | Comptes remis en ordre, 6 publications, vidéo du podcast, bilan | ~8 h |
+| Novembre – décembre | Pour chaque dossier (4 au plus) : 3 visuels réseaux à partir de leurs textes + vérification de la mise en ligne | ~8 h |
+| Assistance | Studio, Brevo, réseaux, par WhatsApp, **2 h par mois au plus** | ~4 h |
+| Autonomie | 1 h de prise en main en visio + les modèles de visuels, qui leur restent | ~1 h |
+| Site | Pastille auteur avec photo, encart du livre (si c'est simple dans le code existant) | ~3 h |
+| **Total** | | **~24 h** |
+
+- **Prix recommandé : 590 € en tout** (dont les 150 € déjà acceptés), soit environ 25 €/h.
+- **Paiement en trois fois** : 150 € au lancement, 220 € début novembre, 220 € début décembre. Ça soulage leur trésorerie sans baisser le prix.
+- **Plancher : 490 €** (150 + 170 + 170), en passant à 2 visuels par dossier. En dessous, on retire du contenu, pas de l'argent.
+- Au-delà : dossier supplémentaire ou heure en plus au tarif horaire, à annoncer avant.
+- **Annoncer le temps passé, pas une valeur gonflée** : « environ 25 heures de travail » est honnête et reprend le « couvrir mon temps » déjà accepté.
+- **2027** : ne rien demander maintenant. La suite naturelle, c'est l'option déjà prévue « Nom de domaine et sauvegarde » (60 €/an), puis un devis selon leurs moyens.
+
+À vérifier avant d'annoncer les ajustements du site : le code du site n'est pas dans ce dépôt. La pastille auteur suppose que le Studio connaît déjà les auteurs ; sinon, c'est plus long.
 
 ## Prochaines étapes
 
 | Quand | Quoi | Qui |
 |---|---|---|
-| **Dim. 18 oct.** | Répondre sur WhatsApp (brouillon dans `proposition/messages.md`) | Karim |
-| Dim. 18 oct. | Vérifier sous quelle adresse le compte Brevo a été créé, et préparer l'accès de Jean-Marc | Karim |
-| Dim. 18 – lun. 19 | Produire la vidéo de l'Humeur (`video-humeur/PROMPT.md`) | Karim |
-| **Lun. 19 oct.** | Envoyer la vidéo de l'Humeur | Karim |
-| Lun. 19 oct. | Envoyer la facture de 150 € | Karim |
-| Lun. 19 – mar. 20 | Nouvelle page LinkedIn créée par Jean-Marc, Karim ajouté comme administrateur | Jean-Marc |
-| Lun. 19 – mar. 20 | Présentations, photos, bannières des 3 comptes | Karim |
-| Mar. 20 – mer. 21 | 6 publications de lancement + vidéo du podcast, envoyées pour validation | Karim |
+| **Lun. 19 oct.** | Envoyer la vidéo de l'Humeur (promise aujourd'hui) | Karim |
+| Lun. 19 oct., soir | Envoyer la proposition forfaitaire (brouillon dans `messages.md`) | Karim |
+| Lun. 19 – mar. 20 | Nouvelle page LinkedIn par Jean-Marc, Karim ajouté comme administrateur | Jean-Marc |
+| Mar. 20 – mer. 21 | Encart du livre et pastilles auteur sur le site (dès l'accord) | Karim |
+| Mar. 20 – mer. 21 | Présentations et bannières, 6 publications, vidéo du podcast, envoyées pour validation | Karim |
 | Mer. 21 oct. | 30 min en visio : prise en main de Brevo | Karim + Jean-Marc |
-| **Jeu. 22 oct.** | Lancement du site, premières publications | Jean-Marc |
-| Fin novembre | Court bilan du pilote, puis proposition de la suite | Karim |
-
-## Points à trancher
-
-### Brevo et la newsletter
-
-- **Accès** : le plus probable, c'est que le compte Brevo est à ton nom ou à ton adresse. Le compte doit appartenir à la revue : passe l'adresse de connexion sur une adresse de la revue ou de Jean-Marc, et garde un accès pour toi (utilisateur supplémentaire si l'abonnement le permet, sinon identifiants partagés).
-- **Depuis le site ou par Brevo ?** Les deux ensemble : le site recueille les inscriptions, Brevo envoie (désinscriptions, délivrabilité, statistiques). Envoyer directement depuis le site serait un développement à part, sur devis, et n'apporterait pas grand-chose.
-- **Autonomie** : un modèle de newsletter prêt dans Brevo, à dupliquer chaque mois, et 30 minutes de prise en main. C'est ce qui lui permet d'être autonome. À offrir : c'est court et ça renforce la relation.
-- **Hors pilote** : préparer et envoyer la newsletter de lancement, ou nettoyer le fichier, c'est l'option « Numéro clé en main » (100 €). Le dire simplement s'il le demande.
-
-### Le fichier de 1 000 contacts
-
-**Ne pas l'importer tel quel dans la newsletter.** Ces personnes ne se sont pas inscrites :
-
-- RGPD : envoyer une newsletter à des particuliers sans leur accord n'est pas permis. Pour des contacts professionnels (journalistes, think tanks), c'est toléré si le message concerne leur métier et qu'ils peuvent se désinscrire.
-- Brevo exige des contacts consentants et suspend les comptes dont les envois génèrent trop de rebonds ou de plaintes. Un compte suspendu la semaine du lancement serait le pire scénario.
-- Si c'est l'abonnement gratuit de Brevo, il est limité à 300 envois par jour.
-
-Ce qu'on recommande :
-
-1. **Une invitation unique** au réseau : « La revue est lancée, voulez-vous recevoir la newsletter ? » avec un lien d'inscription. Seuls ceux qui s'inscrivent reçoivent ensuite la newsletter.
-2. **Les journalistes et think tanks à part** : un court message personnel de Jean-Marc avec le communiqué de lancement. C'est plus efficace qu'une newsletter.
-
-Le communiqué de presse n'est pas dans le pilote : le proposer en option s'il en a besoin.
-
-### LinkedIn
-
-Créer une nouvelle page « La revue Travailliste » depuis le profil de Jean-Marc (c'est lui qui doit en être propriétaire), puis y ajouter Karim comme administrateur. Ensuite, désactiver l'ancienne page pour éviter la confusion.
+| **Jeu. 22 oct.** | Lancement du site | Jean-Marc |
+| Nov. – déc. | 3 à 4 dossiers : visuels + vérification de la mise en ligne | Karim |
+| **31 déc.** | Fin du forfait, bilan, et proposition 2027 séparée | Karim |
 
 ## Ce qu'il faut récupérer de Jean-Marc
 
-- Le fichier audio du podcast du N°01, pour la vidéo.
-- Le contenu du N°01, s'il n'est pas déjà dans le Studio.
-- Qui publie le 22 : lui, ou Karim, avec un accès aux pages Facebook et Instagram via Meta Business Suite.
+- Les photos et noms des auteurs, pour les pastilles.
+- La couverture du livre en bonne définition.
+- Le fichier audio du podcast du N°01.
+- Qui publie jeudi : lui, ou Karim avec un accès Meta Business Suite.
 - L'adresse de la revue à utiliser pour Brevo.
+
+## Points toujours ouverts
+
+### Brevo et le fichier de 1 000 contacts
+
+- Le compte Brevo doit appartenir à la revue ; Karim garde un accès.
+- Le site recueille les inscriptions, Brevo envoie. Pas d'envoi direct depuis le site.
+- **Ne pas importer les 1 000 contacts dans la newsletter** : RGPD, et Brevo suspend les comptes qui écrivent à des listes non consenties. Une invitation unique avec lien d'inscription ; les journalistes et think tanks par message personnel avec le communiqué.
+- **Substack** : il vient de renommer la page. Rappeler : Brevo envoie la newsletter, Substack sert seulement à republier, pour que personne ne reçoive deux lettres.
+
+### LinkedIn
+
+Le message « un autre administrateur procède déjà à cette modification » signale sans doute une demande de changement de nom restée en attente chez LinkedIn. La page était peu utilisée et le lancement est jeudi : créer une nouvelle page « La revue Travailliste » depuis son profil, y ajouter Karim comme administrateur, puis désactiver l'ancienne.
 
 ## La vidéo de l'Humeur N°01
 
-Prompt de production prêt : `video-humeur/PROMPT.md` (brainstorming avec Karim, puis production par agents, puis vérification indépendante). Version **narrateur**, format 1080 × 1920, nom « La revue Travailliste ». Pour le carton de fin, les liens sont maintenant connus : Instagram `@larevuetravailliste`.
-
-## Le pilote N°01 : périmètre accepté
-
-- **150 €**, présenté comme la couverture du temps passé (valeur affichée : 290 €).
-- Comptes remis en ordre, 6 publications de lancement, 1 vidéo du podcast, un court bilan.
-- Pas de propositions de texte LinkedIn, pas de newsletter, pas de communiqué de presse.
-- S'ils continuent : formule au choix, offre de lancement toujours valable.
+Prompt de production : `video-humeur/PROMPT.md`. Version narrateur, 1080 × 1920, nom « La revue Travailliste », Instagram `@larevuetravailliste` sur le carton de fin.

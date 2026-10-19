@@ -101,3 +101,32 @@ Compléter la partie Brevo selon ce que tu trouves dans le compte.
 C'est hors pilote : option « Numéro clé en main », 100 €.
 
 > Avec plaisir. Ce n'est pas dans le pilote, mais c'est prévu dans l'option « Numéro clé en main » : 100 €, je prépare la lettre de lancement dans Brevo et je m'occupe de l'invitation à votre réseau.
+
+## Demande de forfait jusqu'au 31 décembre (WhatsApp, 19 octobre) : ce qu'on lui répond
+
+Il veut un forfait unique jusqu'au 31 décembre : le lancement, un appui technique et graphique pour 3 à 4 dossiers en novembre et décembre, et deux ajustements du site (pastille auteur, encart de son livre). Analyse et calcul dans `STATUS.md`. Prix à valider par Karim avant envoi : 590 € recommandé, 490 € plancher.
+
+### WhatsApp, à envoyer lundi 19 au soir (après la vidéo de l'Humeur)
+
+> Bonjour Jean-Marc, merci pour ce message très clair. Je comprends tout à fait vos contraintes, et l'idée d'un forfait jusqu'au 31 décembre me convient.
+>
+> Voici ce que je vous propose, en un seul forfait :
+>
+> 1. Le lancement, comme convenu : vos comptes remis en ordre, 6 publications, la vidéo du podcast et un bilan.
+> 2. Novembre et décembre, pour vos dossiers (4 au plus) : pour chacun, 3 visuels prêts à publier sur les réseaux à partir de vos textes, et une vérification de la mise en ligne sur le site. S'y ajoute une assistance technique (site, Brevo, réseaux) par WhatsApp, jusqu'à 2 heures par mois.
+> 3. Les deux ajustements du site : la pastille de l'auteur avec sa photo, et l'encart de votre livre avec sa couverture et le bouton « Commander maintenant ». Je peux les mettre en ligne avant le lancement de jeudi.
+>
+> Pour que vous soyez autonomes ensuite, je vous laisse les modèles de visuels et je vous propose une heure de prise en main en visio.
+>
+> L'ensemble représente environ 25 heures de travail. Forfait global : 590 €, payable en trois fois (150 € au lancement, 220 € début novembre, 220 € début décembre), sans aucun engagement au-delà du 31 décembre.
+>
+> Pour avancer sur le site, il me faudrait les photos et les noms des auteurs, et la couverture du livre en bonne définition.
+>
+> Pour LinkedIn, je suis d'accord avec vous : le plus simple est de créer une nouvelle page « La revue Travailliste » depuis votre profil, puis de m'y ajouter comme administrateur. L'ancienne pourra être désactivée ensuite.
+>
+> Et une petite précaution pour Substack : gardez Brevo pour envoyer la newsletter, et Substack seulement pour republier les articles, pour que vos abonnés ne reçoivent pas deux lettres.
+>
+> Bonne soirée,
+> Karim
+
+Version plancher (s'il trouve 590 € trop élevé) : 2 visuels par dossier au lieu de 3, 490 € payables 150 € + 170 € + 170 €. Ne pas descendre plus bas sans retirer du contenu.
