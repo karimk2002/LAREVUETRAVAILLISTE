@@ -1,23 +1,41 @@
 # La Revue travailliste : où on en est
 
-Mis à jour le samedi 24 octobre 2026.
+Mis à jour le dimanche 25 octobre 2026.
 
 **Règle de Karim : tout se règle par écrit. Ne jamais proposer d'appel ni de visio ; en accepter un seulement si Jean-Marc le propose.**
 
 ## Situation
 
-- **20 oct.** : Karim part au Maroc pour une urgence familiale. Jean-Marc : « on peut reporter de quelques jours ». Karim est de retour le 24.
-- **Sans réponse de Karim** : le message du 18 (Brevo, fichier de contacts, LinkedIn) et celui du 19 (demande de forfait jusqu'au 31 décembre). **La vidéo de l'Humeur n'a pas été envoyée.**
-- **Acquis par écrit (18 oct.)** : le pilote du lancement à **150 €** (comptes remis en ordre, 6 publications, 1 vidéo du podcast, un court bilan).
-- **En attente d'un chiffre de Karim (19 oct.)** : un forfait jusqu'au 31 décembre, sans engagement pour 2027 : le lancement, un appui technique et graphique pour 3 à 4 dossiers en novembre-décembre (leurs équipes écrivent), et deux ajustements du site (pastille auteur avec photo ; encart du livre de Jean-Marc, *Pour un travaillisme français*, à la place de l'encart newsletter en bas à droite). Il demande « la proposition financière la plus ajustée ».
-- **Lancement du site** : prévu le jeudi 22, sans doute reporté. Nouvelle date à demander.
-- **Réseaux** : Facebook, Instagram et Substack renommés. LinkedIn bloqué ; il penche pour une nouvelle page.
+Réponse de Jean-Marc aux trois messages du retour (25 octobre) :
 
-**Est-ce qu'il veut payer ?** Oui. Les 150 € sont acceptés noir sur blanc, et il demande lui-même un prix pour novembre-décembre. Ce qui n'est pas clair, c'est le montant, et c'est parce qu'il attend le chiffre de Karim depuis le 19.
+- **Lancement : mercredi 28 ou jeudi 29 octobre**, au choix de Karim. Il attend la vidéo de l'Humeur.
+- **Podcast** : il n'a pas accès à la rubrique « Podcasts » du Studio, donc pas de fichier audio.
+- **Site** : photos et noms des deux auteurs du dossier de lancement reçus (**Florence de Massol** et **Jean-Marc Pasquet**), et un PDF de la première et de la quatrième de couverture du livre. Encart du livre confirmé, en bas à droite à la place de l'encart newsletter, avec un lien pour commander.
+- **Autonomie** : deux autres administrateurs inscrits ; ils créent et modifient déjà des articles et veulent être autonomes dans le Studio (dossier d'abord, puis articles). Ils reviendront en cas de difficulté.
+- **Accompagnement** : intéressés par **Visibilité**. **4 dossiers au maximum jusqu'à fin décembre, lancement compris**, donc 3 en novembre-décembre. Ils veulent une formule resserrée, centrée sur la visibilité, et demandent **« une enveloppe globale pour le lancement et l'accompagnement jusqu'à fin décembre »**.
+- **Malentendu à corriger** : il croit que Visibilité comprend la newsletter, et en fait sa principale réserve. Elle était dans Clé en main, pas dans Visibilité. Sa réserve ne justifie donc pas de baisse.
+- **Newsletter** : environ 1 000 contacts, surtout des sympathisants (beaucoup dans une boucle Telegram), sans consentement formel. Trois questions : un premier envoi avec désinscription est-il possible ? L'invitation dans la boucle Telegram, c'est bien ce qui est proposé ? Les journalistes plutôt par un courriel de présentation à part ?
+- **Brevo** : ajouter son adresse **jean-marc.pasquet@orange.fr**. Il redemande l'adresse de connexion à Brevo et l'adresse e-mail de contact des lecteurs.
+- **LinkedIn** : il crée une nouvelle page. **Substack** : gardé comme canal complémentaire pour certains articles.
+- **2027 et au-delà** : ils veulent pouvoir faire appel à Karim ponctuellement (évolutions du site, formats audiovisuels, opérations de promotion). Il écrit « à l'image de ce que vous allez proposer pour accompagner la publication de notre ouvrage » : **il attend une proposition pour la promotion du livre.** C'est une vente de plus.
 
-**Est-ce intéressant ?** Oui, à condition de cadrer : 510 à 710 € au total d'ici fin décembre selon le niveau, environ 20 à 25 €/h. Petit, mais du revenu rapide, un client réactif et correct, une référence, et une porte ouverte pour 2027 (au minimum le domaine et la sauvegarde, 60 €/an). Les conditions : périmètre écrit, paiement au mois, assistance plafonnée.
+**Lecture** : il est très satisfait, il a cadré lui-même le volume (4 dossiers) et il demande un chiffre unique. Lui donner un seul montant, clair, avec le périmètre écrit, et lui faire valider par « bon pour accord ».
 
-## Ce qu'il dit vraiment
+## Proposition du 25 octobre : enveloppe globale de 550 €
+
+| Bloc | Contenu | Prix |
+|---|---|---|
+| Lancement (acquis) | Comptes remis en ordre, 6 publications, vidéo du podcast, bilan | 150 € |
+| Nov. – déc. | 3 dossiers façon Visibilité : pour chacun, 3 visuels + 1 courte vidéo + programmation sur les 3 réseaux ; assistance jusqu'à 2 h/mois ; bilan fin novembre et fin décembre | 400 € |
+| Inclus | Pastilles auteurs, encart du livre, mise en place de la lettre de lancement dans Brevo | — |
+| **Total** | | **550 €** |
+
+- Paiement : 150 € au lancement, 200 € début novembre, 200 € début décembre.
+- Calcul : Visibilité pour deux mois faisait 630 € avec le lancement, prévu pour 4 dossiers en novembre-décembre. Ils en font 3, donc 510 € au prorata ; les 40 € de plus couvrent la lettre de lancement dans Brevo et les ajustements du site. Environ 20 heures de travail.
+- Toujours ouvert : « si cela dépasse votre enveloppe, dites-moi votre chiffre ».
+- **Promotion du livre** : à proposer à part, dans les jours qui suivent le lancement. Idée : 2 vidéos courtes (présentation du livre, une citation lue), 4 visuels (couverture, citations), programmation sur les 3 réseaux, autour de 190 €.
+
+## Ce qu'il disait le 19 octobre (contexte)
 
 - **Le prix est plafonné par le groupe, pas par lui.** « Fonds propres » : pas de subvention, les membres paient de leur poche. Il porte la relation et doit revenir devant eux avec **un seul chiffre, connu d'avance**. Il craint une facture mensuelle ouverte, pas le travail.
 - **Il retire la formule mensuelle de la table.** Il ne parle plus d'Essentiel à 290 €/mois : il veut une fin de contrat datée et vérifiable.
@@ -50,15 +68,17 @@ Ce qu'il demande : le lancement à 150 € **reste** (« selon les modalités é
 
 | Quand | Quoi | Qui |
 |---|---|---|
-| **Sam. 24 oct.** | Les trois messages WhatsApp du retour (`proposition/messages.md`, section « Retour du Maroc ») | Karim |
-| Lun. 26 oct. | Facture de 150 € pour le lancement | Karim |
-| **Mer. 28 oct.** | Réponse écrite attendue : niveau (1, 2 ou 3) ou enveloppe. Sinon, relancer avec les questions numérotées | Jean-Marc |
+| **Dim. 25 oct.** | Répondre (brouillon dans `proposition/messages.md`, section « Réponse du 25 octobre ») | Karim |
+| Dim. 25 – lun. 26 | Vérifier les droits des nouveaux administrateurs sur la rubrique Podcasts ; récupérer le fichier audio soi-même | Karim |
+| Lun. 26 oct. | Ajouter jean-marc.pasquet@orange.fr dans Brevo ; facture de 150 € | Karim |
 | **Mar. 27 oct.** | Vidéo de l'Humeur envoyée (`video-humeur/PROMPT.md`) | Karim |
-| Dès sa réponse | Récapitulatif d'une page à valider par « bon pour accord » | Karim |
-| Avant le lancement | Encart du livre, pastilles auteur, comptes, 6 publications, vidéo du podcast | Karim |
-| Date à fixer | Lancement du site | Jean-Marc |
-| Nov. – déc. | 3 à 4 dossiers, selon le niveau choisi ; facture au début de chaque mois | Karim |
-| **31 déc.** | Fin du forfait, bilan, proposition 2027 séparée | Karim |
+| Mar. 27 oct. | Pastilles auteurs et encart du livre en ligne | Karim |
+| **Mer. 28 oct.** | 6 publications de lancement + vidéo du podcast envoyées pour validation ; lettre de lancement prête dans Brevo | Karim |
+| **Jeu. 29 oct.** | Lancement du site et des réseaux | Jean-Marc + Karim |
+| Début nov. | Proposition pour la promotion du livre ; facture de 200 € | Karim |
+| Nov. – déc. | 3 dossiers : visuels, vidéo, programmation ; bilans fin novembre et fin décembre | Karim |
+| Début déc. | Facture de 200 € | Karim |
+| **31 déc.** | Fin de l'accompagnement ; proposer des interventions ponctuelles en 2027 | Karim |
 
 ## Ce qu'il faut récupérer de Jean-Marc
 

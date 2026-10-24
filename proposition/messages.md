@@ -204,3 +204,47 @@ Un message court, qu'il peut remplir point par point :
 ### Une fois sa réponse reçue : le récapitulatif à faire valider
 
 Une page, envoyée le jour même : formule retenue, contenu, prix mensuel, dates de paiement, fin au 31 décembre, ce qui est hors forfait. Demander en retour « Bon pour accord » par écrit (WhatsApp ou e-mail suffit). Ne commencer novembre qu'après cette validation et la première facture.
+
+## Réponse du 25 octobre : enveloppe globale, newsletter, Brevo
+
+Il fixe le lancement au mercredi 28 ou jeudi 29, cadre le volume (4 dossiers jusqu'à fin décembre, lancement compris), choisit l'esprit de Visibilité et demande une enveloppe globale. Il pose trois questions sur la newsletter et attend une proposition pour son livre. Détail dans `STATUS.md`.
+
+À compléter avant envoi : les deux adresses entre crochets.
+
+### WhatsApp, à envoyer dimanche 25
+
+> Bonjour Jean-Marc, merci pour ce message très complet : tout est clair. Je reprends vos points dans l'ordre.
+>
+> *1. Lancement*
+> Va pour jeudi 29 octobre. Je vous envoie la vidéo de l'Humeur mardi, puis les publications de lancement et la vidéo du podcast mercredi, pour validation. Pour le fichier audio, je regarde l'accès à la rubrique Podcasts et je le récupère moi-même. Merci pour les photos et la couverture : les pastilles des auteurs et l'encart du livre, avec le bouton « Commander », seront en ligne avant le lancement.
+>
+> *2. Autonomie*
+> C'est exactement la bonne logique : le dossier d'abord, puis ses articles. Je reste disponible en cas de difficulté.
+>
+> *3. Accompagnement jusqu'à fin décembre*
+> Une précision d'abord : la gestion de la newsletter ne fait pas partie de la formule Visibilité, elle était dans la formule Clé en main. Votre réserve ne pèse donc pas sur le prix.
+>
+> Sur la base de Visibilité, adaptée à vos quatre dossiers lancement compris, je vous propose une enveloppe globale de *550 €* :
+> • le lancement, comme convenu : 150 € ;
+> • les trois dossiers de novembre et décembre : pour chacun, 3 visuels, une courte vidéo et la programmation sur vos trois réseaux, avec une assistance technique jusqu'à 2 heures par mois et un bilan fin novembre et fin décembre : 400 € ;
+> • inclus : les deux ajustements du site, et la mise en place de votre lettre de lancement dans Brevo.
+>
+> Paiement en trois fois : 150 € au lancement, 200 € début novembre, 200 € début décembre. Si cela dépasse ce que vous avez prévu, dites-moi simplement votre chiffre.
+>
+> Pour votre livre, avec plaisir : je vous envoie une proposition séparée pour accompagner sa sortie juste après le lancement.
+>
+> *4. Newsletter*
+> • Un premier envoi à votre réseau : à mon avis, oui, c'est défendable pour des sympathisants avec qui vous êtes en contact régulier, comme ceux de la boucle Telegram. À condition que la lettre dise clairement qui l'envoie et pourquoi, que le lien de désinscription soit bien visible, et qu'on retire avant l'envoi les adresses que vous ne connaissez pas ou qui sont erronées. Ceux qui se désinscrivent ne reçoivent plus rien.
+> • Telegram : oui, c'est bien cela. Un message collectif avec le lien d'inscription, en complément de ce premier envoi.
+> • Journalistes : oui, un courriel de présentation à part, depuis votre adresse et si possible personnalisé, sans les intégrer à la newsletter. Ils pourront s'inscrire s'ils le souhaitent.
+>
+> *Brevo*
+> J'ajoute votre adresse jean-marc.pasquet@orange.fr. Connexion : [adresse de connexion Brevo]. Adresse de contact des lecteurs : [adresse de contact de la revue].
+>
+> *5. LinkedIn et Substack*
+> Parfait. Ajoutez-moi comme administrateur de la nouvelle page LinkedIn dès qu'elle est créée, pour que je prépare sa présentation et sa bannière.
+>
+> Si l'enveloppe vous convient, un simple « bon pour accord » en réponse me suffit, et je vous envoie la facture du lancement.
+>
+> Bien à vous,
+> Karim
