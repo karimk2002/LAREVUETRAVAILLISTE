@@ -140,3 +140,53 @@ Trois niveaux au lieu d'un chiffre unique : il voit jusqu'où il peut aller, et 
 - **Il choisit l'Appui mais veut une vidéo de temps en temps** : vidéo à l'unité, 60 €.
 - **Un dossier en plus** : facturé au prorata de la formule choisie (environ la moitié du prix mensuel).
 - **Plancher absolu** : 150 €/mois pour novembre-décembre. En dessous, retirer du contenu, pas de l'argent.
+
+## Retour du Maroc (samedi 24 octobre) : reprendre la main
+
+Contexte : Karim est parti le 20 pour une urgence familiale ; Jean-Marc a répondu « on peut reporter de quelques jours ». Deux messages de Jean-Marc sont restés sans réponse (18 et 19 octobre), et la vidéo de l'Humeur n'a pas été envoyée. Le lancement du jeudi 22 a sans doute glissé.
+
+But : obtenir une réponse nette sur trois points (date de lancement, formule de novembre-décembre, montant), par écrit. Deux messages à la suite, puis un appel de 20 minutes, puis un récapitulatif d'une page à valider.
+
+### WhatsApp 1 : le retour, ce qui est acquis, ce qu'il me faut
+
+> Bonjour Jean-Marc, je suis de retour et de nouveau pleinement disponible. Merci beaucoup pour votre patience et votre compréhension.
+>
+> Je reprends tout dans l'ordre. Le lancement est acquis comme convenu, à 150 € : je vous envoie la facture et je m'y mets dès lundi. Je vous envoie aussi la vidéo de l'Humeur d'ici mardi.
+>
+> Pour démarrer, il me faudrait :
+> 1. votre nouvelle date de lancement du site ;
+> 2. le fichier audio du podcast du N°01 ;
+> 3. les photos et les noms des auteurs, et la couverture du livre en bonne définition ;
+> 4. savoir si vous publiez vous-même ou si vous préférez que je programme les publications.
+>
+> Pour Brevo, LinkedIn et le fichier de contacts, j'ai quelques recommandations importantes, notamment pour rester dans les règles du RGPD : je vous propose qu'on en parle lors d'un court appel (voir message suivant).
+
+### WhatsApp 2 : novembre-décembre, avec une question fermée
+
+> Pour novembre et décembre, voici ma proposition, en trois niveaux, pour que vous choisissiez avec vos animateurs. Les deux ajustements du site (pastille des auteurs, encart de votre livre) sont inclus dans les trois.
+>
+> *1. Appui : 180 € par mois*
+> Pour chaque dossier, 3 visuels prêts à publier à partir de vos textes, et une vérification de la mise en ligne. Une assistance technique (site, Brevo, réseaux), jusqu'à 2 heures par mois.
+>
+> *2. Visibilité : 240 € par mois*
+> L'Appui, plus une courte vidéo par dossier, la programmation des publications sur les trois réseaux, et un petit bilan chaque mois.
+>
+> *3. Clé en main : 280 € par mois*
+> La Visibilité, plus la mise en ligne des dossiers dans le Studio et la préparation de chaque newsletter dans Brevo.
+>
+> Paiement au mois, sans engagement après le 31 décembre. Ce sont des bases de discussion : si vous avez une enveloppe en tête, dites-la-moi simplement et je compose le contenu qui va avec.
+>
+> Pour caler tout cela rapidement, seriez-vous disponible pour un appel de 20 minutes lundi ou mardi ? Sinon, une réponse écrite me va très bien : il me suffit de savoir quel niveau vous retenez, ou votre enveloppe. Je vous enverrai ensuite un récapitulatif d'une page, à valider d'un simple « bon pour accord ».
+
+### Pendant l'appel : les questions à poser, dans cet ordre
+
+1. Nouvelle date de lancement ?
+2. « Quelle enveloppe avez-vous validée avec les animateurs pour novembre-décembre ? » Poser la question, puis se taire et laisser répondre.
+3. Quel niveau, ou quel mélange ? Qu'est-ce qui compte le plus pour eux : la visibilité, ou l'autonomie ?
+4. Combien de dossiers, à quelles dates ?
+5. Qui paie et comment : facture au nom de l'association ? Virement ?
+6. Brevo (accès), fichier de contacts (pas d'import direct, invitation avec lien d'inscription), LinkedIn (nouvelle page), Substack (republication seulement).
+
+### Après l'appel : le récapitulatif à faire valider
+
+Une page, envoyée le jour même : formule retenue, contenu, prix mensuel, dates de paiement, fin au 31 décembre, ce qui est hors forfait. Demander en retour « Bon pour accord » par écrit (WhatsApp ou e-mail suffit). Ne commencer novembre qu'après cette validation et la première facture.

@@ -1,18 +1,19 @@
 # La Revue travailliste : où on en est
 
-Mis à jour le lundi 19 octobre 2026.
+Mis à jour le samedi 24 octobre 2026.
 
 ## Situation
 
-- **Pilote N°01 accepté à 150 €** le 18 octobre (comptes remis en ordre, 6 publications de lancement, 1 vidéo du podcast, un court bilan). Il le reconfirme le 19.
-- **Nouvelle demande, 19 octobre** (après discussion avec les animateurs de l'association) : un **forfait global unique**, jusqu'au **31 décembre 2026**, sans engagement pour 2027, qui regroupe :
-  1. le lancement, comme convenu ;
-  2. un « accompagnement ponctuel » en novembre et décembre : 3 à 4 dossiers au total, **appui technique et graphique seulement**, leurs équipes écrivent ;
-  3. deux ajustements du site : une **pastille auteur avec photo** sur les articles, et le **remplacement de l'encart newsletter en bas à droite par l'encart du livre de Jean-Marc** (*Pour un travaillisme français*, L'Harmattan : couverture, texte, bouton « Commander maintenant »).
-  Il demande « la proposition financière la plus ajustée ».
-- **Lancement du site : jeudi 22 octobre.**
-- **Réseaux** : Facebook, Instagram et Substack renommés. LinkedIn bloqué (« un autre administrateur procède déjà à cette modification ») : il penche pour une nouvelle page.
-- Pas de nouvelles sur Brevo ni sur le fichier de 1 000 contacts depuis le 18.
+- **20 oct.** : Karim part au Maroc pour une urgence familiale. Jean-Marc : « on peut reporter de quelques jours ». Karim est de retour le 24.
+- **Sans réponse de Karim** : le message du 18 (Brevo, fichier de contacts, LinkedIn) et celui du 19 (demande de forfait jusqu'au 31 décembre). **La vidéo de l'Humeur n'a pas été envoyée.**
+- **Acquis par écrit (18 oct.)** : le pilote du lancement à **150 €** (comptes remis en ordre, 6 publications, 1 vidéo du podcast, un court bilan).
+- **En attente d'un chiffre de Karim (19 oct.)** : un forfait jusqu'au 31 décembre, sans engagement pour 2027 : le lancement, un appui technique et graphique pour 3 à 4 dossiers en novembre-décembre (leurs équipes écrivent), et deux ajustements du site (pastille auteur avec photo ; encart du livre de Jean-Marc, *Pour un travaillisme français*, à la place de l'encart newsletter en bas à droite). Il demande « la proposition financière la plus ajustée ».
+- **Lancement du site** : prévu le jeudi 22, sans doute reporté. Nouvelle date à demander.
+- **Réseaux** : Facebook, Instagram et Substack renommés. LinkedIn bloqué ; il penche pour une nouvelle page.
+
+**Est-ce qu'il veut payer ?** Oui. Les 150 € sont acceptés noir sur blanc, et il demande lui-même un prix pour novembre-décembre. Ce qui n'est pas clair, c'est le montant, et c'est parce qu'il attend le chiffre de Karim depuis le 19.
+
+**Est-ce intéressant ?** Oui, à condition de cadrer : 510 à 710 € au total d'ici fin décembre selon le niveau, environ 20 à 25 €/h. Petit, mais du revenu rapide, un client réactif et correct, une référence, et une porte ouverte pour 2027 (au minimum le domaine et la sauvegarde, 60 €/an). Les conditions : périmètre écrit, paiement au mois, assistance plafonnée.
 
 ## Ce qu'il dit vraiment
 
@@ -47,15 +48,15 @@ Ce qu'il demande : le lancement à 150 € **reste** (« selon les modalités é
 
 | Quand | Quoi | Qui |
 |---|---|---|
-| **Lun. 19 oct.** | Envoyer la vidéo de l'Humeur (promise aujourd'hui) | Karim |
-| Lun. 19 oct., soir | Envoyer la proposition en trois niveaux (brouillon dans `messages.md`) | Karim |
-| Lun. 19 – mar. 20 | Nouvelle page LinkedIn par Jean-Marc, Karim ajouté comme administrateur | Jean-Marc |
-| Mar. 20 – mer. 21 | Encart du livre et pastilles auteur sur le site (dès l'accord) | Karim |
-| Mar. 20 – mer. 21 | Présentations et bannières, 6 publications, vidéo du podcast, envoyées pour validation | Karim |
-| Mer. 21 oct. | 30 min en visio : prise en main de Brevo | Karim + Jean-Marc |
-| **Jeu. 22 oct.** | Lancement du site | Jean-Marc |
-| Nov. – déc. | 3 à 4 dossiers, selon le niveau choisi | Karim |
-| **31 déc.** | Fin du forfait, bilan, et proposition 2027 séparée | Karim |
+| **Sam. 24 oct.** | Les deux messages WhatsApp du retour (`proposition/messages.md`, section « Retour du Maroc ») | Karim |
+| Lun. 26 oct. | Facture de 150 € pour le lancement | Karim |
+| Lun. 26 – mar. 27 | Appel de 20 minutes : date de lancement, enveloppe, niveau, Brevo, contacts, LinkedIn | Karim + Jean-Marc |
+| **Mar. 27 oct.** | Vidéo de l'Humeur envoyée (`video-humeur/PROMPT.md`) | Karim |
+| Jour de l'appel | Récapitulatif d'une page à valider par « bon pour accord » | Karim |
+| Avant le lancement | Encart du livre, pastilles auteur, comptes, 6 publications, vidéo du podcast | Karim |
+| Date à fixer | Lancement du site | Jean-Marc |
+| Nov. – déc. | 3 à 4 dossiers, selon le niveau choisi ; facture au début de chaque mois | Karim |
+| **31 déc.** | Fin du forfait, bilan, proposition 2027 séparée | Karim |
 
 ## Ce qu'il faut récupérer de Jean-Marc
 
