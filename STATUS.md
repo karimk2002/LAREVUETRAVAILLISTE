@@ -70,7 +70,7 @@ Ce qu'il demande : le lancement à 150 € **reste** (« selon les modalités é
 |---|---|---|
 | **Dim. 25 oct.** | Répondre (brouillon dans `proposition/messages.md`, section « Réponse du 25 octobre ») | Karim |
 | Dim. 25 – lun. 26 | Vérifier les droits des nouveaux administrateurs sur la rubrique Podcasts ; récupérer le fichier audio soi-même | Karim |
-| Lun. 26 oct. | Ajouter jean-marc.pasquet@orange.fr dans Brevo ; facture de 150 € | Karim |
+| Lun. 26 oct. | Confier le Gmail larevuetravailliste@gmail.com (propriétaire de Brevo, connexion Sanity) : mot de passe en message séparé, ajouter son téléphone de récupération ; facture de 150 € | Karim |
 | **Mar. 27 oct.** | Vidéo de l'Humeur envoyée (`video-humeur/PROMPT.md`) | Karim |
 | Mar. 27 oct. | Pastilles auteurs et encart du livre en ligne | Karim |
 | **Mer. 28 oct.** | 6 publications de lancement + vidéo du podcast envoyées pour validation ; lettre de lancement prête dans Brevo | Karim |

@@ -209,7 +209,9 @@ Une page, envoyée le jour même : formule retenue, contenu, prix mensuel, dates
 
 Il fixe le lancement au mercredi 28 ou jeudi 29, cadre le volume (4 dossiers jusqu'à fin décembre, lancement compris), choisit l'esprit de Visibilité et demande une enveloppe globale. Il pose trois questions sur la newsletter et attend une proposition pour son livre. Détail dans `STATUS.md`.
 
-À compléter avant envoi : les deux adresses entre crochets.
+À compléter avant envoi : l'adresse de contact entre crochets. Envoyer le mot de passe du Gmail dans un message séparé, jamais dans le même.
+
+Brevo (offre gratuite) n'autorise qu'un utilisateur : le compte appartient à larevuetravailliste@gmail.com, qu'on lui confie.
 
 ### WhatsApp, à envoyer dimanche 25
 
@@ -238,8 +240,9 @@ Il fixe le lancement au mercredi 28 ou jeudi 29, cadre le volume (4 dossiers jus
 > • Telegram : oui, c'est bien cela. Un message collectif avec le lien d'inscription, en complément de ce premier envoi.
 > • Journalistes : oui, un courriel de présentation à part, depuis votre adresse et si possible personnalisé, sans les intégrer à la newsletter. Ils pourront s'inscrire s'ils le souhaitent.
 >
-> *Brevo*
-> J'ajoute votre adresse jean-marc.pasquet@orange.fr. Connexion : [adresse de connexion Brevo]. Adresse de contact des lecteurs : [adresse de contact de la revue].
+> *Brevo et Studio*
+> Votre offre Brevo ne permet qu'un seul utilisateur (en ajouter demande l'offre payante Standard). Le plus simple : je vous confie directement le compte Gmail de la revue, larevuetravailliste@gmail.com, que j'ai créé pour le projet. C'est lui qui est propriétaire du compte Brevo, et il vous permet aussi de vous connecter au Studio Sanity avec le bouton Google. Je vous envoie le mot de passe dans un message séparé. Je vous conseille d'y ajouter votre numéro de téléphone pour la récupération du compte, et de garder mon accès jusqu'à fin décembre pour que je puisse préparer la lettre de lancement.
+> Connexion à Brevo : https://app.brevo.com. Adresse de contact des lecteurs : [adresse de contact de la revue].
 >
 > *5. LinkedIn et Substack*
 > Parfait. Ajoutez-moi comme administrateur de la nouvelle page LinkedIn dès qu'elle est créée, pour que je prépare sa présentation et sa bannière.
