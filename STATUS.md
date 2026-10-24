@@ -2,6 +2,8 @@
 
 Mis à jour le samedi 24 octobre 2026.
 
+**Règle de Karim : tout se règle par écrit. Ne jamais proposer d'appel ni de visio ; en accepter un seulement si Jean-Marc le propose.**
+
 ## Situation
 
 - **20 oct.** : Karim part au Maroc pour une urgence familiale. Jean-Marc : « on peut reporter de quelques jours ». Karim est de retour le 24.
@@ -36,7 +38,7 @@ Ce qu'il demande : le lancement à 150 € **reste** (« selon les modalités é
 | **Visibilité** (milieu, à mettre en avant) | Appui + 1 vidéo courte par dossier + programmation des publications + bilan mensuel | 240 €/mois | 630 € | ~11 h/mois |
 | Clé en main | Visibilité + mise en ligne des dossiers dans le Studio + newsletter Brevo pour chaque dossier | 280 €/mois | 710 € | ~14 h/mois |
 
-- **Inclus partout** : pastille auteur, encart du livre (avant jeudi si c'est simple), 1 h de prise en main.
+- **Inclus partout** : pastille auteur, encart du livre (avant le lancement si c'est simple), un court tutoriel vidéo enregistré (site et Brevo).
 - **Paiement au mois**, sans engagement après le 31 décembre.
 - **À l'unité** : vidéo courte 60 € ; dossier supplémentaire au prorata.
 - **Plancher** : 150 €/mois. En dessous, on retire du contenu.
@@ -48,11 +50,11 @@ Ce qu'il demande : le lancement à 150 € **reste** (« selon les modalités é
 
 | Quand | Quoi | Qui |
 |---|---|---|
-| **Sam. 24 oct.** | Les deux messages WhatsApp du retour (`proposition/messages.md`, section « Retour du Maroc ») | Karim |
+| **Sam. 24 oct.** | Les trois messages WhatsApp du retour (`proposition/messages.md`, section « Retour du Maroc ») | Karim |
 | Lun. 26 oct. | Facture de 150 € pour le lancement | Karim |
-| Lun. 26 – mar. 27 | Appel de 20 minutes : date de lancement, enveloppe, niveau, Brevo, contacts, LinkedIn | Karim + Jean-Marc |
+| **Mer. 28 oct.** | Réponse écrite attendue : niveau (1, 2 ou 3) ou enveloppe. Sinon, relancer avec les questions numérotées | Jean-Marc |
 | **Mar. 27 oct.** | Vidéo de l'Humeur envoyée (`video-humeur/PROMPT.md`) | Karim |
-| Jour de l'appel | Récapitulatif d'une page à valider par « bon pour accord » | Karim |
+| Dès sa réponse | Récapitulatif d'une page à valider par « bon pour accord » | Karim |
 | Avant le lancement | Encart du livre, pastilles auteur, comptes, 6 publications, vidéo du podcast | Karim |
 | Date à fixer | Lancement du site | Jean-Marc |
 | Nov. – déc. | 3 à 4 dossiers, selon le niveau choisi ; facture au début de chaque mois | Karim |
