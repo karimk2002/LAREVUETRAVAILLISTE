@@ -1,6 +1,8 @@
 # La Revue travailliste : où on en est
 
-Mis à jour le dimanche 25 octobre 2026.
+Mis à jour le dimanche 25 octobre 2026 (soir).
+
+> **ACCORD SIGNÉ le 25 octobre : 550 € jusqu'au 31 décembre** (« bon pour accord » de Jean-Marc). Paiement : 150 € au lancement, 200 € début novembre, 200 € début décembre. Ajout demandé : un appui sur la newsletter « si besoin », accepté dans la limite de l'assistance (2 h/mois) ; la préparation complète d'une lettre en plus est à 50 €. Il retire les journalistes du fichier (envoi à part), fait le message Telegram, crée la page LinkedIn le 26.
 
 **Règle de Karim : tout se règle par écrit. Ne jamais proposer d'appel ni de visio ; en accepter un seulement si Jean-Marc le propose.**
 

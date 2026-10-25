@@ -251,3 +251,20 @@ Brevo (offre gratuite) n'autorise qu'un utilisateur : le compte appartient à la
 >
 > Bien à vous,
 > Karim
+
+## Bon pour accord (25 octobre) : confirmation
+
+Il accepte les 550 €, sous réserve d'un appui sur la newsletter « si besoin », et demande si le lien de désinscription est prévu. Fichier de contacts propre, journalistes retirés (envoi à part), message Telegram de son côté, page LinkedIn le 26.
+
+### WhatsApp, à envoyer dimanche 25
+
+> Bonjour Jean-Marc, parfait, c'est d'accord pour moi : bon pour accord sur cette base, 550 € jusqu'au 31 décembre.
+>
+> *3. Newsletter* : oui, bien sûr. L'appui sur la newsletter entre dans l'assistance prévue (jusqu'à 2 heures par mois) : questions, relecture, mise en page si besoin. Je prépare aussi votre lettre de lancement. Si un jour vous souhaitez que je prépare entièrement une lettre, ce sera 50 € la lettre, toujours après votre accord.
+>
+> *4. Désinscription* : oui, c'est prévu. Brevo place automatiquement un lien de désinscription en bas de chaque lettre, et je l'ajouterai aussi en haut de la lettre de lancement, avec une phrase expliquant pourquoi ils la reçoivent. Envoyez-moi le fichier sans les journalistes, je l'importe dans Brevo. Si vous le souhaitez, je vous propose aussi un texte pour le message Telegram.
+>
+> Je vous envoie la facture du lancement demain, et la vidéo de l'Humeur mardi.
+>
+> Merci pour votre confiance, bien à vous,
+> Karim
