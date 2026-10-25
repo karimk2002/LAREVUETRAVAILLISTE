@@ -1,71 +1,77 @@
 # Prompt : vidéo de l'Humeur du N°01
 
-À coller dans une nouvelle session Claude Code, ouverte sur ce dépôt (de préférence sur le Mac, là où Flora, les clés ElevenLabs / fish.audio et ffmpeg sont disponibles).
+À coller dans une session Claude Code ouverte sur ce dépôt, avec le connecteur **Flora** branché (images et voix). Modèle principal : **Opus** pour le brainstorming ; la session confie la production à Sonnet et Haiku.
 
 ---
 
-You're helping me (Karim) produce a short vertical video for Jean-Marc, editor of **La revue Travailliste**. It is the free demo promised in my proposal: the **Humeur** (the editorial mood piece) of issue N°01, turned into a 45–60 s vertical video with a narrator voice, animated illustrations and on-screen text. Jean-Marc will show it to his team before their social media launch. **It must be ready to send on Monday 19 October.**
+Tu m'aides (Karim) à produire une courte vidéo verticale pour Jean-Marc Pasquet, directeur de **La revue Travailliste**. C'est la démonstration offerte promise dans ma proposition : l'**Humeur** du N°01 (le billet d'humeur du numéro) en vidéo de 45 à 60 secondes, avec une voix de narrateur, des illustrations animées et le texte à l'écran. Jean-Marc l'attend et la montrera à son équipe. **Elle doit être envoyée le mardi 27 octobre**, avant le lancement du site le jeudi 29.
 
-Read first: `STATUS.md` and `proposition/` (the proposal I sent). Brand: red `#C90419`, Newsreader for titles, Barlow Semi Condensed for text, name written « La revue Travailliste ». All on-screen text and narration are in French.
+À lire d'abord : `STATUS.md` et `proposition/`. Identité : rouge `#C90419`, Newsreader pour les titres, Barlow Semi Condensed pour le texte (Google Fonts), nom écrit « La revue Travailliste ». Instagram : `@larevuetravailliste`. Tout est en français.
 
-## Hard rules
+## Règles
 
-1. **Phase 1 is a conversation with me.** No paid generation and no subagents until I write `GO PRODUCTION` after approving the brief.
-2. **Cut, never add.** Every spoken or displayed word comes from the Humeur text, except the end card. No rewording, no invented facts or figures.
-3. **No likeness of real, identifiable people** in generated images (politicians, union leaders…). Symbolic illustration only.
-4. **Money:** before every paid call (Flora, ElevenLabs, fish.audio), state the estimated cost. Total budget cap: **15 €**. If a step would go over, stop and ask me.
-5. **Narrator voice is a stock French voice**, not a clone of anyone.
-6. Work in `video-humeur/`. Do not commit generated media (add a `.gitignore` for `video-humeur/assets/` and `video-humeur/out/`); commit only the brief, scripts and reports.
+1. **Phase 1 = conversation avec moi, par écrit.** Aucune génération payante et aucun sous-agent tant que je n'ai pas écrit `GO PRODUCTION` après avoir validé le brief.
+2. **Couper, jamais ajouter.** Chaque mot dit ou affiché vient du texte de l'Humeur, sauf le carton de fin. Pas de reformulation, pas de fait ni de chiffre inventé.
+3. **Aucun visage reconnaissable de personne réelle** dans les images (responsables politiques, syndicalistes…). Illustration symbolique uniquement, et pas de texte généré dans les images.
+4. **Argent :** avant chaque appel payant à Flora, utilise d'abord le mode devis (`quote`) et annonce le coût. **Plafond total : 15 €.** Si une étape le dépasse, arrête-toi et demande-moi.
+5. **Voix de narrateur standard**, jamais le clone de quelqu'un.
+6. Travaille dans `video-humeur/`. Ne commite pas les médias générés (ajoute un `.gitignore` pour `video-humeur/assets/` et `video-humeur/out/`) ; commite seulement le brief, les scripts et le rapport de vérification.
 
-## Phase 1 — Brainstorm with me (you, main session, high effort)
+## Outils disponibles
 
-I'll paste the Humeur text. Then propose, concisely:
+- **Flora** (espace de travail de Karim) : images, animation image vers vidéo, et voix **ElevenLabs** (Multilingual v2 ou v3, environ 0,12 $ par génération ; Eleven v4, environ 0,05 $). Pas besoin de clé ElevenLabs séparée.
+- **ffmpeg / ffprobe** pour le montage, les sous-titres et les contrôles.
+- **Google Fonts** pour télécharger Newsreader et Barlow Semi Condensed.
 
-1. Two or three creative angles (tone, illustration style, rhythm), with your recommendation.
-2. The cut: the text reduced to 45–60 s of narration (about 110–150 words), showing what is removed.
-3. A storyboard of 6–10 shots: timing, spoken text, on-screen text, illustration idea, motion.
-4. The hook (first 3 seconds) and the end card (logo, « La revue Travailliste », where to read the issue).
-5. Two or three French narrator voices to test (ElevenLabs library, fish.audio).
+## Phase 1 : brainstorming avec moi (toi, session principale, effort élevé)
 
-We iterate until I'm happy. Then write `video-humeur/brief.md` — the single source of truth for everything after — and wait for `GO PRODUCTION`.
+Je te colle le texte de l'Humeur. Propose ensuite, en restant bref :
 
-## Phase 2 — Production (subagents, cheapest model that does the job)
+1. Deux ou trois angles créatifs (ton, style d'illustration, rythme), avec ta recommandation.
+2. La découpe : le texte ramené à 45 à 60 secondes de narration (environ 110 à 150 mots), en montrant ce qui est retiré.
+3. Un storyboard de 6 à 10 plans : durée, texte dit, texte à l'écran, idée d'illustration, mouvement.
+4. L'accroche (3 premières secondes) et le carton de fin (« La revue Travailliste », `@larevuetravailliste`).
+5. Deux ou trois voix françaises à tester.
 
-Spawn subagents with the Agent tool, setting `model` and `effort` explicitly for each:
+On itère jusqu'à ce que je valide. Écris alors `video-humeur/brief.md`, la seule référence pour la suite, et attends `GO PRODUCTION`.
 
-| Task | Model | Effort |
+## Phase 2 : production (sous-agents, le modèle le moins cher qui fait le travail)
+
+Lance les sous-agents avec l'outil Agent en précisant `model` et `effort` pour chacun :
+
+| Tâche | Modèle | Effort |
 |---|---|---|
-| Brief, creative calls, final go/no-go (you) | main session | high |
-| Flora image prompts, voice direction (pace, emphasis, pronunciation hints) | sonnet | medium |
-| API calls, downloads, file handling, subtitles from timestamps, ffmpeg assembly | haiku | low |
-| Anything haiku fails twice | sonnet | medium |
-| Verification (phase 3) | sonnet | high |
+| Brief, choix créatifs, décision finale (toi) | session principale | élevé |
+| Prompts d'images Flora, direction de la voix (rythme, accents, prononciation) | sonnet | moyen |
+| Appels Flora, téléchargements, fichiers, sous-titres, montage ffmpeg | haiku | bas |
+| Ce que haiku rate deux fois | sonnet | moyen |
+| Vérification (phase 3) | sonnet | élevé |
 
-Each subagent gets `brief.md` and only the inputs it needs, and returns file paths plus a short report — not file contents.
+Chaque sous-agent reçoit `brief.md` et seulement ce dont il a besoin, et rend des chemins de fichiers et un court rapport, pas le contenu des fichiers.
 
-Order, with a checkpoint where I approve before money is spent on the next step:
+Ordre, avec un point de validation par moi avant chaque dépense :
 
-1. **Voice test:** one sentence from the script in 2–3 voices. I pick one.
-2. **Full narration** in the chosen voice, with word-level timestamps (ElevenLabs "with timestamps", or transcribe afterwards). Save the timings as JSON.
-3. **Stills:** one image per shot in Flora, draft quality first. Show me a contact sheet; regenerate only the ones I reject.
-4. **Motion:** default to cheap motion done in ffmpeg (slow zoom, pan, parallax, text animation). Use paid AI image-to-video for at most 1–2 key shots, and only if I agree.
-5. **Assembly (ffmpeg):** 1080×1920, 30 fps, H.264 + AAC, loudness around −14 LUFS. Subtitles burned in using Barlow Semi Condensed, synced to the word timings. Keep the top ~250 px and bottom ~400 px free of essential text (Instagram/LinkedIn interface). End card with logo. Export:
-   - `out/humeur-n01.mp4` (subtitles burned in)
-   - `out/humeur-n01-sans-texte.mp4` + `out/humeur-n01.srt`
+1. **Test de voix :** une phrase du script dans 2 ou 3 voix. Je choisis.
+2. **Narration plan par plan :** une génération de voix par plan, dans la voix choisie. La durée de chaque fichier donne le calage des sous-titres ; si un plan est raté, on ne régénère que lui.
+3. **Images :** une par plan dans Flora, en qualité brouillon d'abord. Montre-moi une planche contact ; ne régénère que celles que je refuse.
+4. **Mouvement :** par défaut en ffmpeg (zoom lent, panoramique, animation du texte). Animation IA payante pour 1 ou 2 plans clés au plus, et seulement si je suis d'accord.
+5. **Montage (ffmpeg) :** 1080 × 1920, 30 i/s, H.264 + AAC, volume autour de −14 LUFS. Sous-titres incrustés en Barlow Semi Condensed. Laisse libres d'éléments importants les ~250 px du haut et les ~400 px du bas (interface d'Instagram et de LinkedIn). Carton de fin. Exporte :
+   - `out/humeur-n01.mp4` (sous-titres incrustés)
+   - `out/humeur-n01-sans-texte.mp4` et `out/humeur-n01.srt`
 
-## Phase 3 — Verification (a separate subagent, fresh context, never the one that produced)
+## Phase 3 : vérification (un sous-agent séparé, jamais celui qui a produit)
 
-Checklist, pass/fail per item with evidence:
+Pour chaque point, réussi ou raté, avec la preuve :
 
-- **Text fidelity:** transcribe the final audio and compare it word by word with the Humeur. Nothing added, nothing distorted.
-- **French pronunciation:** proper names, numbers, acronyms, liaisons.
-- **Subtitles:** spelling, French typography (« guillemets », non-breaking space before : ; ! ?), line breaks, sync within ~150 ms.
-- **Specs:** check with ffprobe (resolution, fps, codecs, duration, loudness).
-- **Visuals:** extract one frame per shot. Check brand colours and fonts, safe zones, no real person's likeness, no garbled AI text in images.
-- **End card:** exact name « La revue Travailliste », logo correct.
+- **Fidélité du texte :** compare le texte de chaque plan au texte de l'Humeur, mot à mot. Rien d'ajouté, rien de déformé.
+- **Prononciation :** noms propres, chiffres, sigles, liaisons (écoute plan par plan, signale les doutes).
+- **Sous-titres :** orthographe, typographie française (« guillemets », espace insécable avant : ; ! ?), coupures de lignes, synchronisation.
+- **Format :** contrôle avec ffprobe (résolution, cadence, codecs, durée, volume).
+- **Images :** une image extraite par plan. Couleurs et polices de la revue, zones libres respectées, aucun visage réel, aucun texte déformé dans les images.
+- **Carton de fin :** nom exact « La revue Travailliste » et `@larevuetravailliste`.
 
-The producer fixes the failed items; the verifier re-checks only those. After two loops, escalate to me.
+Le producteur corrige ce qui a raté ; le vérificateur ne revérifie que ces points. Après deux tours, remonte-moi le problème.
 
-## Delivery
+## Livraison
 
-Show me the final video, a contact sheet of 6 frames, the verifier's report and the total spend. I send the video to Jean-Marc myself on WhatsApp. Update `STATUS.md` (video done, spend, files).
+Montre-moi la vidéo finale, une planche de 6 images, le rapport de vérification et la dépense totale. J'envoie la vidéo à Jean-Marc moi-même sur WhatsApp. Mets à jour `STATUS.md` (vidéo faite, dépense, fichiers).
